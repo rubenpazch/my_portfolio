@@ -1,0 +1,301 @@
+@font-face {
+  font-family: "AmaticSCBold";
+  font-style: bold;
+  font-weight: 700;
+  src: url("../fonts/AmaticSC-Bold.eot?") format("eot"), url("../fonts/AmaticSC-Bold.woff") format("woff"), url("../fonts/AmaticSC-Bold.ttf") format("truetype"), url("../fonts/AmaticSC-Bold.svg#AmaticSCBold") format("svg"); }
+@font-face {
+  font-family: "AmaticSCRegular";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/AmaticSC-Regular.eot?") format("eot"), url("../fonts/AmaticSC-Regular.woff") format("woff"), url("../fonts/AmaticSC-Regular.ttf") format("truetype"), url("../fonts/AmaticSC-Regular.svg#AmaticSCRegular") format("svg"); }
+@font-face {
+  font-family: "ubuntu";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/UbuntuCondensed-Regular.eot?") format("eot"), url("../fonts/UbuntuCondensed-Regular.woff") format("woff"), url("../fonts/UbuntuCondensed-Regular.ttf") format("truetype"), url("../fonts/UbuntuCondensed-Regular.svg#ubuntu") format("svg"); }
+.f-Amatic-b {
+  font-family: "AmaticSCBold", sans-serif;
+  text-transform: uppercase; }
+
+.f-Amatic-n {
+  font-family: "AmaticSCRegular", sans-serif;
+  text-transform: uppercase; }
+
+.f-ubuntu-n {
+  font-family: "ubuntu", sans-serif; }
+
+nav {
+  width: 12vw;
+  height: 45vh;
+  background-color: #fff;
+  border-radius: 10px;
+  text-transform: uppercase; }
+
+.left-bar {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center; }
+
+.menu-nav {
+  padding: 0; }
+
+.menu-nav li {
+  list-style: none;
+  height: 8vh;
+  width: 100%;
+  border-bottom: 1px solid #e6e6e6; }
+
+.menu-nav li:last-child {
+  border-bottom: 0; }
+
+.icons-profile {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center; }
+
+.icons-profile a {
+  text-decoration: none;
+  padding: 11px 0 0 0;
+  display: flex;
+  font-size: 0.9rem;
+  color: #000; }
+
+.icons-profile a:hover {
+  font-weight: bolder;
+  font-size: 1rem;
+  font-family: "ubuntu", sans-serif;
+  text-decoration: underline;
+  color: #31840b; }
+
+.profile {
+  width: 45vw;
+  height: 100%;
+  border-radius: 10px;
+  margin: 0 0 0 10px;
+  position: relative; }
+
+.picture-content {
+  background-image: url(../img/profile.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45vh;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px; }
+
+.picture-content:before {
+  content: '';
+  position: absolute;
+  left: -25%;
+  bottom: -55%;
+  width: 100%;
+  height: 70%;
+  transform: rotate(12deg);
+  -webkit-transform: rotate(12deg);
+  -moz-transform: rotate(12deg);
+  -o-transform: rotate(12deg);
+  background-color: #fff; }
+
+.picture-content:after {
+  content: '';
+  position: absolute;
+  left: 25%;
+  bottom: -57%;
+  width: 100%;
+  height: 70%;
+  transform: rotate(-8deg);
+  -webkit-transform: rotate(-8deg);
+  -moz-transform: rotate(-8deg);
+  -o-transform: rotate(-8deg);
+  background-color: #fff; }
+
+.info {
+  background-color: #fff;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 45vh;
+  width: 100%;
+  height: 45vh;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px; }
+
+.info h1 {
+  font-size: 2.3rem;
+  padding: 0;
+  margin: -230px 0 0 0; }
+
+.info h2 {
+  font-size: 1.5rem;
+  font-weight: lighter;
+  padding: 20px 0 0 0;
+  margin: 0;
+  color: #15b01f; }
+
+.social-media {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: left;
+  margin: 0;
+  padding: 15px 0 0 0; }
+
+.social-media li {
+  list-style: none;
+  margin: 5px 5px; }
+
+.download {
+  position: absolute;
+  width: 90%;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  bottom: 10px;
+  margin: 0;
+  padding: 0 0 20px 0; }
+
+.download li {
+  list-style: none;
+  height: 5vh;
+  margin: 0;
+  padding: 25px 0 0 0;
+  border: 1px solid #ddd9d9;
+  min-width: 9vw;
+  text-align: center;
+  box-shadow: -3px 3px 3px #d2cfcf; }
+
+.link-cv {
+  text-decoration: none;
+  color: #000;
+  padding-left: 15px; }
+
+.link-cv:hover {
+  text-decoration: none;
+  font-weight: bolder;
+  color: #000;
+  text-decoration: underline;
+  font-family: "ubuntu", sans-serif; }
+
+.fas, .far {
+  font-size: 1.6em; }
+
+.fab {
+  font-size: 1.3rem; }
+
+.fas:hover, .far:hover {
+  font-size: 1.6em;
+  color: #31840b; }
+
+.fab:hover {
+  font-size: 1.3rem;
+  color: #31840b; }
+
+.content {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  border-radius: 10px;
+  margin: 0 0 0 10px;
+  overflow-y: scroll;
+  scroll-behavior: smooth; }
+
+.content h1 {
+  font-family: "ubuntu", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 900;
+  padding-left: 15px; }
+
+.title-content {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding: 15px 0 0 25px;
+  flex-flow: row; }
+
+.parag-content {
+  flex-flow: row;
+  display: flex;
+  justify-content: left; }
+
+.parag-resumen {
+  width: 50%;
+  margin: 0;
+  padding: 0; }
+
+.parag-resumen p {
+  padding: 0 25px;
+  font-family: "ubuntu", sans-serif;
+  font-size: 1rem;
+  font-weight: 100;
+  line-height: 1.5rem;
+  text-align: left; }
+
+.parag-info {
+  width: 50%;
+  margin: 0;
+  padding: 16px 25px; }
+
+.parag-info li {
+  list-style: none;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: space-between;
+  line-height: 1.5rem;
+  padding: 4px 0; }
+
+.info-highlight {
+  background-color: #15b01f;
+  padding-right: 25%;
+  padding-left: 10px;
+  color: #fff; }
+
+/*
+ *  STYLE 15
+ */
+#style-15::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+  background-color: #F5F5F5;
+  border-radius: 10px; }
+
+#style-15::-webkit-scrollbar {
+  width: 10px;
+  background-color: #F5F5F5; }
+
+#style-15::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #FFF;
+  background-image: -webkit-gradient(linear, 40% 0%, 75% 84%, from(#4D9C41), to(#19911D), color-stop(0.6, #54DE5D)); }
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(../img/hiking.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-family: "ubuntu", sans-serif; }
+
+main {
+  max-width: 1180px;
+  margin: auto;
+  height: 100vh;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center; }
+
+.wrapper-content {
+  display: flex;
+  flex-flow: row;
+  height: 90vh; }
+
+/*# sourceMappingURL=style.css.map */

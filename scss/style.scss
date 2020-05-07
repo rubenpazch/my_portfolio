@@ -1,0 +1,35 @@
+@import '../scss/fonts.scss';
+@import '../scss/fontsclasses.scss';
+@import '../scss/nav_bar.scss';
+@import '../scss/profile.scss';
+@import '../scss/download.scss';
+@import '../scss/icons.scss';
+@import '../scss/about_me.scss';
+@import '../scss/scroll_decorate.scss';
+
+body {
+
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/hiking.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: "ubuntu", sans-serif;
+}
+
+main {    
+    max-width: 1180px;
+    margin: auto;
+    height: 100vh;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper-content{
+    display: flex;
+    flex-flow: row;
+    height: 90vh;
+}
