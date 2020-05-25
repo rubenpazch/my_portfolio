@@ -1,11 +1,10 @@
-@import '../scss/fonts.scss';
-@import '../scss/fontsclasses.scss';
 @import '../scss/nav_bar.scss';
 @import '../scss/profile.scss';
 @import '../scss/download.scss';
 @import '../scss/icons.scss';
 @import '../scss/about_me.scss';
 @import '../scss/scroll_decorate.scss';
+@import '../scss/media_query.scss';
 
 body {
 
@@ -15,7 +14,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    font-family: "ubuntu", sans-serif;
+    font-family: "ubuntu", sans-serif;    
 }
 
 main {    

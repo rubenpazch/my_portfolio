@@ -1,29 +1,3 @@
-@font-face {
-  font-family: "AmaticSCBold";
-  font-style: bold;
-  font-weight: 700;
-  src: url("../fonts/AmaticSC-Bold.eot?") format("eot"), url("../fonts/AmaticSC-Bold.woff") format("woff"), url("../fonts/AmaticSC-Bold.ttf") format("truetype"), url("../fonts/AmaticSC-Bold.svg#AmaticSCBold") format("svg"); }
-@font-face {
-  font-family: "AmaticSCRegular";
-  font-style: normal;
-  font-weight: 500;
-  src: url("../fonts/AmaticSC-Regular.eot?") format("eot"), url("../fonts/AmaticSC-Regular.woff") format("woff"), url("../fonts/AmaticSC-Regular.ttf") format("truetype"), url("../fonts/AmaticSC-Regular.svg#AmaticSCRegular") format("svg"); }
-@font-face {
-  font-family: "ubuntu";
-  font-style: normal;
-  font-weight: 500;
-  src: url("../fonts/UbuntuCondensed-Regular.eot?") format("eot"), url("../fonts/UbuntuCondensed-Regular.woff") format("woff"), url("../fonts/UbuntuCondensed-Regular.ttf") format("truetype"), url("../fonts/UbuntuCondensed-Regular.svg#ubuntu") format("svg"); }
-.f-Amatic-b {
-  font-family: "AmaticSCBold", sans-serif;
-  text-transform: uppercase; }
-
-.f-Amatic-n {
-  font-family: "AmaticSCRegular", sans-serif;
-  text-transform: uppercase; }
-
-.f-ubuntu-n {
-  font-family: "ubuntu", sans-serif; }
-
 nav {
   width: 12vw;
   height: 45vh;
@@ -65,7 +39,6 @@ nav {
 .icons-profile a:hover {
   font-weight: bolder;
   font-size: 1rem;
-  font-family: "ubuntu", sans-serif;
   text-decoration: underline;
   color: #31840b; }
 
@@ -181,8 +154,7 @@ nav {
   text-decoration: none;
   font-weight: bolder;
   color: #000;
-  text-decoration: underline;
-  font-family: "ubuntu", sans-serif; }
+  text-decoration: underline; }
 
 .fas, .far {
   font-size: 1.6em; }
@@ -208,7 +180,6 @@ nav {
   scroll-behavior: smooth; }
 
 .content h1 {
-  font-family: "ubuntu", sans-serif;
   font-size: 1.5rem;
   font-weight: 900;
   padding-left: 15px; }
@@ -275,6 +246,42 @@ nav {
   background-color: #FFF;
   background-image: -webkit-gradient(linear, 40% 0%, 75% 84%, from(#4D9C41), to(#19911D), color-stop(0.6, #54DE5D)); }
 
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+@media (min-width: 1281px) {
+  .wrapper-content {
+    flex-flow: column; } }
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .wrapper-content {
+    flex-flow: column; } }
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  .wrapper-content {
+    flex-flow: column; } }
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .wrapper-content {
+    flex-flow: column; } }
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
 body {
   margin: 0;
   padding: 0;
