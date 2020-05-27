@@ -17,6 +17,10 @@
     flex-flow: row;
 }
 
+.title-content i{
+    font-size: 1.5vw;
+}
+
 .parag-content {    
     display: flex;
     justify-content: left;
@@ -55,3 +59,4 @@
     color: #fff;    
     font-weight: 400;
 }
+
