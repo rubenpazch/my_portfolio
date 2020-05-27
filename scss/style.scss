@@ -1,10 +1,11 @@
+@import '../scss/media_query.scss';
 @import '../scss/nav_bar.scss';
 @import '../scss/profile.scss';
 @import '../scss/download.scss';
 @import '../scss/icons.scss';
 @import '../scss/about_me.scss';
 @import '../scss/scroll_decorate.scss';
-@import '../scss/media_query.scss';
+
 
 body {
 
@@ -27,8 +28,6 @@ main {
     justify-content: center;
 }
 
-.wrapper-content{
-    display: flex;
-    flex-flow: row;
-    height: 90vh;
+.wrapper-content {
+    display: flex;    
 }

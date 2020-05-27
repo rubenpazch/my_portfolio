@@ -1,8 +1,5 @@
 .profile {    
-    width: 45vw;
-    height: 100%;
-    border-radius: 10px;    
-    margin: 0 0 0 10px;
+    border-radius: 10px;        
     position: relative;    
 }
 
@@ -12,9 +9,7 @@
     background-size: cover;
     height: 45vh;
     width: 100%;
-    position: absolute;
-    left: 0;
-    top: 0;
+    position: absolute;    
     overflow: hidden;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -67,7 +62,7 @@
 }
 
 .info h1{
-    font-size: 2.3rem;
+    font-size: 2vw;
     padding: 0; 
     margin: -230px 0 0 0 ;
 }

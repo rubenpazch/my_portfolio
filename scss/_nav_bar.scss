@@ -1,6 +1,4 @@
-nav{    
-    width: 12vw;
-    height: 45vh;
+nav{
     background-color: #fff;
     border-radius: 10px;
     text-transform: uppercase;
@@ -13,18 +11,42 @@ nav{
     justify-content: center;
 }
 
+.left-bar-2{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+}
+
 .menu-nav{
     padding: 0; 
+}
+
+.menu-nav-2{
+    padding: 0; 
+    margin: 15px 15px 15px 0;
 }
 
 .menu-nav li{
     list-style: none;
     height: 8vh;
     width: 100%;
+    border-bottom: 1px solid #e6e6e6;    
+}
+
+.menu-nav-2 li{
+    list-style: none;
+    height: 5vh;
+    width: 100%;
     border-bottom: 1px solid #e6e6e6;
+    font-size: 1.1vw;
 }
 
 .menu-nav li:last-child{
+    border-bottom: 0;
+}
+
+.menu-nav-2 li:last-child{
     border-bottom: 0;
 }
 
@@ -35,17 +57,39 @@ nav{
     align-items: center;
 }
 
+.icons-profile-2 {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .icons-profile a{
     text-decoration: none;
-    padding: 11px 0 0 0;
-    display: flex;
-    font-size: 0.9rem;
+    padding: 11px 0 0 0;       
     color: #000;
+}
+
+.icons-profile-2 a{
+    text-decoration: none;
+    padding: 11px 0 0 0;    
+    color: #000;
+    font-size: 0.9vw;
+    width: 7vw;
+    text-align: center;
+    margin-left: 0;
 }
 
 .icons-profile a:hover{      
     font-weight: bolder;
-    font-size: 1rem;    
+    font-size: 1vw;    
+    text-decoration: underline;
+    color: #31840b;
+}
+
+.icons-profile-2 a:hover{      
+    font-weight: bolder;
+    font-size: 1vw;    
     text-decoration: underline;
     color: #31840b;
 }

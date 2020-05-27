@@ -1,75 +1,391 @@
-/* 
-  ##Device = Desktops
-  ##Screen = 1281px to higher resolution desktops
-*/
+@media (min-width: 1281px) {    
+  nav {
+    width: 12vw;
+    height: 45vh;
+  }
+  .profile {    
+    width: 45vw;
+    height: 100%;  
+    margin: 0 0 0 10px;    
+  }
+  .wrapper-content {
+    height: 90vh;    
+    flex-flow: row;
+  }
+  body{
+    background-color: blue;
+  }  
+  .content h1{
+    font-size: 2vw;
+  }
 
-@media (min-width: 1281px) {
-  
-    //CSS
-    .wrapper-content{        
-        flex-flow: column;        
-    }
+  .parag-content{
+    flex-flow: row;
+  }
+  .parag-resumen{
+    width: 60%;
+  }
+  .parag-resumen p {
+    font-size: 0.8vw;
+  }
+  .parag-info{
+    width: 40%;
+  }
+  .info-highlight{
+    font-size: 0.9vw;
+  }
+  .parag-info li{    
+    font-size: 0.9vw;   
+  }
+  #nav-bar-1 {
+    display: inherit;
+  }
+  #nav-bar-2 {
+    display: none;
+  }
+  .download li{
+    font-size: 0.9vw;
+    min-width: 9vw;
+  }
+  .icons-profile a{
+    font-size: 0.8vw;
+  }
+  .picture-content{
+    left: 0;
+    top: 0;
+  }
+  .menu-nav-2{
+    display: flex;
+    flex-flow: row;
+    width: none;
+  }
+  .content {    
+    width: 100%;  
+    height: 100%;
+    overflow-y: scroll;   
+  }
 }
-  
-  /* 
-    ##Device = Laptops, Desktops
-    ##Screen = B/w 1025px to 1280px
-  */
-  
-  @media (min-width: 1025px) and (max-width: 1280px) {
-    
-    //CSS
-    .wrapper-content{        
-        flex-flow: column;        
-    }
+@media (min-width: 1025px) and (max-width: 1280px) {  
+  nav {
+    width: none;
+    height: none;
+  }
+  .profile {    
+    width: 45vw;
+    height: 100%;  
+    margin: 0 0 0 10px;    
+  }
+  .wrapper-content {
+    height: 90vh;    
+    flex-flow: row;    
+  }
+
+  body{
+    background-color: blue;
+  }
+
+  .content h1{
+    font-size: 2.5vw;
+  }
+
+  .parag-content{
+    flex-flow: column;
+  }
+  .parag-resumen{
+    width: 100%;
+  }
+  .parag-resumen p {
+    font-size: 1.1vw;
+  }
+  .info-highlight{
+    font-size: 1.1vw;
+  }  
+  .parag-info li{    
+    font-size: 1.1vw;   
+  }
+  #nav-bar-1 {
+    display: none;
+  }  
+  .download li{
+    font-size: 1.1vw;
+    min-width: 11vw;
+  }
+  .icons-profile a{
+    font-size: 1vw;
+  }
+  .picture-content{
+    left: 0;
+    top: 85px;
+  }
+  .menu-nav-2{
+    display: flex;
+    flex-flow: row;
+    width: none;
+  }
+  .content {    
+    width: 55vw;  
+    height: 100%;
+    overflow-y: scroll;   
+  }  
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  nav {
+    width: none;
+    height: none;
+  }
+  .profile {    
+    width: 45vw;
+    height: 100%;  
+    margin: 0 0 0 10px;    
+  }
+  .wrapper-content {  
+    height: 90vh;  
+    flex-flow: row;    
   }
   
-  /* 
-    ##Device = Tablets, Ipads (portrait)
-    ##Screen = B/w 768px to 1024px
-  */
-  
-  @media (min-width: 768px) and (max-width: 1024px) {
-    
-    //CSS
-    .wrapper-content{        
-        flex-flow: column;        
-    }
-    
-    
+  body{
+    background-color: blue;
+  }
+
+  .content h1{
+    font-size: 2.5vw;
+  }
+
+  .parag-content{
+    flex-flow: column;
+  }
+  .parag-resumen{
+    width: 100%;
+  }
+  .parag-resumen p {
+    font-size: 1.1vw;
+  }
+  .info-highlight{
+    font-size: 1.1vw;
+  }  
+  .parag-info li{    
+    font-size: 1.1vw;   
+  }
+  #nav-bar-1 {
+    display: none;
+  }  
+  .download li{
+    font-size: 1.1vw;
+    min-width: 11vw;
+  }
+  .icons-profile a{
+    font-size: 1vw;
+  }
+  .picture-content{
+    left: 0;
+    top: 85px;
+  }
+  .menu-nav-2{
+    display: flex;
+    flex-flow: row;
+    width: none;
+  }
+  .content {    
+    width: 55vw;  
+    height: 100%;
+    overflow-y: scroll;   
+  }
+}  
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  nav {
+    width: none;
+    height: none;
+  }
+  .profile {    
+    width: 45vw;
+    height: 100%;  
+    margin: 0 0 0 10px;    
+  }
+  .wrapper-content {    
+    height: 90vh;
+    flex-flow: row;    
   }
   
-  /* 
-    ##Device = Tablets, Ipads (landscape)
-    ##Screen = B/w 768px to 1024px
-  */
-  
-  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-    
-    //CSS
-    .wrapper-content{        
-        flex-flow: column;        
-    }
+  body{
+    background-color: blue;
+  }
+
+  .content h1{
+    font-size: 2.5vw;
+  }
+
+  .parag-content{
+    flex-flow: column;
+  }
+  .parag-resumen{
+    width: 100%;
+  }
+  .parag-resumen p {
+    font-size: 1.1vw;
+  }
+  .info-highlight{
+    font-size: 1.1vw;
+  }  
+  .parag-info li{    
+    font-size: 1.1vw;   
+  }
+  #nav-bar-1 {
+    display: none;
+  }  
+  .download li{
+    font-size: 1.1vw;
+    min-width: 11vw;
+  }
+  .icons-profile a{
+    font-size: 1vw;
+  }
+  .picture-content{
+    left: 0;
+    top: 85px;
+  }
+  .menu-nav-2{
+    display: flex;
+    flex-flow: row;
+    margin: 15px 15px 15px 0;
+    width: none;
+  }
+  .content {    
+    width: 55vw;  
+    height: 100%;
+    overflow-y: scroll;   
+  }
+}  
+@media (min-width: 481px) and (max-width: 767px) {
+  nav {
+    width: none;
+    height: none;
+  }
+  .profile {            
+    margin: 0 0 0 10px;  
+    width: 97vw;
+    height: 100%;    
+    margin: 1vh 0 0 1.5vw;    
+    display: block;
+    padding: 0 0 0 0;  
+  }
+  .wrapper-content {
+    height: 100%;    
+    flex-flow: column;    
   }
   
-  /* 
-    ##Device = Low Resolution Tablets, Mobiles (Landscape)
-    ##Screen = B/w 481px to 767px
-  */
-  
-  @media (min-width: 481px) and (max-width: 767px) {
-    
-    //CSS
-    
+  body{
+    background-color: blue;
+  }
+
+  .content h1{
+    font-size: 2.5vw;
+  }
+
+  .parag-content{
+    flex-flow: column;
+  }
+  .parag-resumen{
+    width: 100%;
+  }
+  .parag-resumen p {
+    font-size: 1.1vw;
+  }
+  .info-highlight{
+    font-size: 1.1vw;
+  }  
+  .parag-info li{    
+    font-size: 1.1vw;   
+  }
+  #nav-bar-1 {
+    display: none;
+  }  
+  .download li{
+    font-size: 1.1vw;
+    min-width: 11vw;
+  }
+  .icons-profile a{
+    font-size: 1vw;
+  }
+  .picture-content{
+    left: 0;
+    top: 85px;
+  }
+  .menu-nav-2{
+    display: flex;
+    flex-flow: row;    
+    margin: 25px 0 25px 0;
+    width: 100%;
+  }  
+  .content {    
+    width: 100vw;  
+    height: none;
+    overflow-y: none;   
+  }
+}
+@media (max-width: 480px) {
+  nav {
+    width: none;
+    height: none;
+  }
+  .profile {            
+    margin: 0 0 0 10px;  
+    width: 97vw;
+    height: 100%;    
+    margin: 1vh 0 0 1.5vw;    
+    display: block;
+    padding: 0 0 0 0;  
+  }
+  .wrapper-content {
+    height: 100%;    
+    flex-flow: column;    
   }
   
-  /* 
-    ##Device = Most of the Smartphones Mobiles (Portrait)
-    ##Screen = B/w 320px to 479px
-  */
-  
-  @media (min-width: 320px) and (max-width: 480px) {
-    
-    //CSS
-    
+  body{
+    background-color: blue;
   }
+
+  .content h1{
+    font-size: 2.5vw;
+  }
+
+  .parag-content{
+    flex-flow: column;
+  }
+  .parag-resumen{
+    width: 100%;
+  }
+  .parag-resumen p {
+    font-size: 1.1vw;
+  }
+  .info-highlight{
+    font-size: 1.1vw;
+  }  
+  .parag-info li{    
+    font-size: 1.1vw;   
+  }
+  #nav-bar-1 {
+    display: none;
+  }  
+  .download li{
+    font-size: 1.1vw;
+    min-width: 11vw;
+  }
+  .icons-profile a{
+    font-size: 1vw;
+  }
+  .picture-content{
+    left: 0;
+    top: 85px;
+  }
+  .menu-nav-2{
+    display: flex;
+    flex-flow: row;    
+    margin: 25px 0 25px 0;
+    width: 100%;
+  }  
+  .content {    
+    width: 100vw;  
+    height: none;
+    overflow-y: none;   
+  }
+}
