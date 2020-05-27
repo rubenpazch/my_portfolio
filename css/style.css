@@ -81,12 +81,16 @@
     border: 1px solid darkseagreen;
     padding: 5px 0 5px 10px;
     font-size: 0.7vw;
-    width: 4vw;
-    border-radius: 6px; }
+    width: 5.5vw;
+    border-radius: 6px;
+    text-align: center; }
 
   .content-experience {
     padding: 0;
-    margin: 0; } }
+    margin: 0;
+    font-weight: lighter;
+    font-size: 0.8vw;
+    line-height: 2.5vh; } }
 @media (min-width: 1025px) and (max-width: 1280px) {
   nav {
     width: none;
