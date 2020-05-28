@@ -1,0 +1,92 @@
+.experience{
+    padding: 0 0 30px 0;
+}
+
+.experience-wrapper{
+    display: flex;
+    flex-flow: row;
+}
+.experience-side{
+    width: 50%;
+    padding: 0 0 0 30px;
+    margin: 0;
+}
+.education-side{
+    width: 50%;
+    padding: 0;
+    margin: 0;
+}
+.content-education{
+    padding: 0 30px 30px 0;
+}
+.content-education h3{
+    font-size: inherit;
+    text-transform: uppercase;
+    width: 10vw;
+}
+.content-education h4{
+    font-size: 0.9vw;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-decoration-color: #15b01f;
+}
+
+.content-experience h4{
+    font-size: 0.9vw;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-decoration-color: #15b01f;
+}
+
+.content-education h5{
+    font-size: 0.75vw;    
+    padding: 0 0 30px 0;
+    margin: 0;
+}
+
+.content-experience h5{
+    font-size: 0.75vw;    
+    padding: 0 0 30px 0;
+    margin: 0;
+}
+
+.content-experience{
+    padding: 0 0 0 0;
+}
+
+.content-experience h3{
+    font-size: inherit;
+    text-transform: uppercase;
+    width: 10vw;
+}
+
+.text-education{
+    padding: 0;
+    margin: 0;
+    font-weight: lighter;
+    font-size: 0.8vw;
+    line-height: 2.5vh;
+}
+
+.text-experience{
+    padding: 0;
+    margin: 0;
+    font-weight: lighter;
+    font-size: 0.8vw;
+    line-height: 2.5vh;
+}
+
+.list-info{
+    margin: 0;
+    padding: 0 0 0 15px;    
+}
+
+.list-info li{
+    list-style: square;
+}
+.head-content{
+    display: flex;
+    flex-flow: row;
+    align-items: flex-end;
+    justify-content: space-between;
+}
