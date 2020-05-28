@@ -698,6 +698,9 @@ nav {
   margin: 0;
   padding: 0; }
 
+.center {
+  justify-content: center; }
+
 .tags {
   border: 1px solid #8AB98A;
   padding: 5px 30px 5px 30px;

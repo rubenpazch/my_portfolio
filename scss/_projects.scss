@@ -22,7 +22,11 @@
     flex-wrap: wrap;
     width: 95%;    
     margin: 0;
-    padding: 0;
+    padding: 0;    
+}
+
+.center{
+    justify-content: center;
 }
 .tags{   
     border: 1px solid #8AB98A;
