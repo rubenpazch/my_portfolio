@@ -6,6 +6,10 @@
     width: 60%;    
 }
 
+.project-content h2{
+    margin: 0; 
+}
+
 .project-wrapper{
     display: flex;
     flex-flow: row;
@@ -30,8 +34,6 @@
 }
 .tags{   
     border: 1px solid #8AB98A;
-    padding: 5px 30px 5px 30px;
-    font-size: 0.7vw;    
     border-radius: 6px;
     text-align: center;
     list-style: none;
@@ -41,31 +43,29 @@
 
 .project-content p{
     font-weight: lighter;
-    line-height: 2.5vh;
-    padding: 0 15px 0 0;
-    font-size: 0.8vw;
+    line-height: 1.5rem;    
 }
 
 .project-image{        
-    background-repeat: no-repeat;
-    background-position: center;
+    background-repeat: no-repeat;    
     background-size: contain;
 }
 
 #project-01{
     background-image: url(../img/project-01.png);
+    
 }
 #project-02{
     background-image: url(../img/project-02.png);
-    background-size: 86%;
+    
 }
 #project-03{
     background-image: url(../img/project-03.png);
-    background-size: 86%;
+    
 }
 #article-01{
     background-image: url(../img/article-01.png);
-    background-size: 86%;
+    
 }
 
 .link-demo{

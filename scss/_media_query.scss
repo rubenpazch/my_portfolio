@@ -22,9 +22,6 @@
     height: 100%;
     overflow-y: scroll;   
   }
-  body{
-    background-color: blue;
-  }  
   .content h1{
     font-size: 2vw;
   }
@@ -69,14 +66,16 @@
     flex-flow: row;
     width: none;
   }
-  
-  .experience{
-    padding: 0 0 0 0;
     
+  .experience{
+    padding: 0 45px 30px 0;
   }
+
+
   .experience h2{
     text-transform: uppercase;
-    color: #15b01f;
+    color: #15b01f;    
+    font-size: 1.4vw;
   }
   .education{
     padding: 0 0 0 25px;
@@ -85,6 +84,7 @@
   .education h2{
     text-transform: uppercase;
     color: #15b01f;
+    font-size: 1.4vw;
   }
 
   .period{
@@ -95,8 +95,45 @@
     border-radius: 6px;
     text-align: center;
   }
+  .project-content p{  
+    font-size: 0.8vw;    
+  }
+  .project-content{      
+    padding: 0 30px 0 0;
+  }
+  .tags{     
+    padding: 5px 30px 5px 30px;
+    font-size: 0.8vw;        
+  }
 
 
+  #project-01{   
+    background-size: 86%;
+  }
+  #project-02{    
+    background-size: 86%;
+  }
+  #project-03{    
+    background-size: 86%;
+  }
+  #article-01{    
+    background-size: 86%;
+  }
+
+  .project-image{         
+    background-position: center;    
+  }
+  .experience-wrapper{    
+    flex-flow: row;
+  }
+  .experience-side{
+    width: 50%;
+    padding: 0 0 0 30px;
+  }
+  .education-side{
+      width: 50%;
+      padding: 0;
+  }
 }
 @media (min-width: 1025px) and (max-width: 1280px) {  
   nav {
@@ -104,21 +141,17 @@
     height: none;
   }
   .profile {    
-    width: 45vw;
+    width: 40vw;
     height: 100%;  
-    margin: 0 0 0 10px;    
+    margin: 0 0 0 0;    
   }
   .wrapper-content {
     height: 90vh;    
     flex-flow: row;    
   }
-
-  body{
-    background-color: blue;
-  }
-
   .content h1{
     font-size: 2.5vw;
+    width: 55vw;
   }
 
   .parag-content{
@@ -165,12 +198,51 @@
   }
   .experience h2{
     text-transform: uppercase;
+    color: #15b01f;
+    font-size: 1.1vw;
   }
   .education{
     padding: 0 0 0 0;
   }
   .education h2{
     text-transform: uppercase;
+  }
+  .project-content p{  
+    font-size: 1.1vw;    
+  }
+  .project-content {     
+    padding: 0 30px 0 0;
+  }
+  .tags{     
+    padding: 5px 30px 5px 30px;
+    font-size: 1.1vw;        
+  }
+  #project-01{   
+    background-size: 165%;
+  }
+  #project-02{    
+    background-size: 185%;
+  }
+  #project-03{    
+    background-size: 110%;
+  }
+  #article-01{    
+    background-size: 86%;
+  }
+  .project-image{         
+    background-position-y: 0;    
+    background-position-x: center;
+  }
+  .experience-wrapper{    
+    flex-flow: column;
+  }
+  .experience-side{
+    width: 100%;
+    padding: 0 0 0 30px;
+  }
+  .education-side{
+      width: 100%;
+      padding: 0 0 0 30px;
   }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -186,10 +258,6 @@
   .wrapper-content {  
     height: 90vh;  
     flex-flow: row;    
-  }
-  
-  body{
-    background-color: blue;
   }
 
   .content h1{
@@ -249,11 +317,7 @@
   .wrapper-content {    
     height: 90vh;
     flex-flow: row;    
-  }
-  
-  body{
-    background-color: blue;
-  }
+  }  
 
   .content h1{
     font-size: 2.5vw;
@@ -317,10 +381,7 @@
     height: 100%;    
     flex-flow: column;    
   }
-  
-  body{
-    background-color: blue;
-  }
+ 
 
   .content h1{
     font-size: 2.5vw;
@@ -385,9 +446,6 @@
     flex-flow: column;    
   }
   
-  body{
-    background-color: blue;
-  }
 
   .content h1{
     font-size: 2.5vw;
