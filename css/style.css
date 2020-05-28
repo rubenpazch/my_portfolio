@@ -69,14 +69,14 @@
     width: none; }
 
   .experience {
-    padding: 0 0 0 25px; }
+    padding: 0 0 0 0; }
 
   .experience h2 {
     text-transform: uppercase;
     color: #15b01f; }
 
   .education {
-    padding: 0 0 0 0; }
+    padding: 0 0 0 25px; }
 
   .education h2 {
     text-transform: uppercase;
