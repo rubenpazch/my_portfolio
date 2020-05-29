@@ -1,15 +1,13 @@
 .profile {    
     border-radius: 10px;        
-    position: relative;    
+     
 }
 
 .picture-content{
     background-image: url(../img/profile.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
-    height: 45vh;
-    width: 100%;
-    position: absolute;    
+    background-size: cover; 
+      
     overflow: hidden;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -17,54 +15,35 @@
 
 .picture-content:before{
     content: '';
-    position: absolute;
-    left: -25%;
-    bottom: -55%;
-    width: 100%;
-    height: 70%;
+    position: absolute; 
     transform: rotate(12deg);
     -webkit-transform: rotate(12deg);
     -moz-transform: rotate(12deg);
     -o-transform: rotate(12deg);
-    background-color: #fff;
-    
+    background-color: #fff;    
 }
-
-
 .picture-content:after{
     content: '';
-    position: absolute;
-    left: 25%;
-    bottom: -57%;
-    width: 100%;
-    height: 70%;
+    position: absolute;    
     transform: rotate(-8deg);
     -webkit-transform: rotate(-8deg);
     -moz-transform: rotate(-8deg);
     -o-transform: rotate(-8deg);
-    background-color: #fff;
-    
+    background-color: #fff;    
 }
-
 
 .info{
     background-color: #fff;
-    display: flex;
-    flex-flow: column;
+    display: flex;    
     justify-content: center;
-    align-items: center;
-    position: absolute;
-    top:45vh;
-    width: 100%;
-    height: 45vh;
+    align-items: center;    
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
 
 .info h1{
     font-size: 2vw;
-    padding: 0; 
-    margin: -230px 0 0 0 ;
+    padding: 0;  
 }
 
 .info h2{

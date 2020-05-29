@@ -1,4 +1,7 @@
 @media (min-width: 1281px) {
+  body {
+    background-repeat: no-repeat; }
+
   nav {
     max-width: 7%;
     width: 7%;
@@ -8,7 +11,8 @@
     width: 30%;
     max-width: 30%;
     height: 100%;
-    margin: 0 0 0 10px; }
+    margin: 0 0 0 10px;
+    position: relative; }
 
   .wrapper-content {
     height: 90vh;
@@ -20,7 +24,8 @@
     width: 63%;
     max-width: 63%;
     height: 100%;
-    overflow-y: scroll; }
+    overflow-y: scroll;
+    margin: 0 0 0 10px; }
 
   .content h1 {
     font-size: 2vw; }
@@ -49,6 +54,12 @@
   #nav-bar-2 {
     display: none; }
 
+  .download {
+    position: absolute;
+    bottom: 10px;
+    margin: 0;
+    padding: 0 0 20px 0; }
+
   .download li {
     font-size: 0.9vw;
     min-width: 9vw; }
@@ -56,9 +67,9 @@
   .icons-profile a {
     font-size: 0.8vw; }
 
-  .picture-content {
-    left: 0;
-    top: 0; }
+  .menu-nav {
+    display: flex;
+    flex-flow: column; }
 
   .menu-nav-2 {
     display: flex;
@@ -123,8 +134,44 @@
 
   .education-side {
     width: 50%;
-    padding: 0; } }
+    padding: 0; }
+
+  .picture-content {
+    height: 45vh;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute; }
+
+  .info {
+    flex-flow: column;
+    top: 45vh;
+    width: 100%;
+    height: 45vh;
+    position: absolute; }
+
+  .info h1 {
+    margin: -230px 0 0 0; }
+
+  .picture-content:before {
+    left: -25%;
+    bottom: -55%;
+    width: 100%;
+    height: 70%; }
+
+  .picture-content:after {
+    left: 25%;
+    bottom: -57%;
+    width: 100%;
+    height: 70%; }
+
+  .left-bar {
+    padding: 0 0 0 0;
+    margin: 0; } }
 @media (min-width: 1025px) and (max-width: 1280px) {
+  body {
+    background-repeat: no-repeat; }
+
   nav {
     width: none;
     height: none; }
@@ -132,15 +179,12 @@
   .profile {
     width: 40vw;
     height: 100%;
-    margin: 0 0 0 0; }
+    margin: 0 0 0 0;
+    position: relative; }
 
   .wrapper-content {
     height: 90vh;
     flex-flow: row; }
-
-  .content h1 {
-    font-size: 2.5vw;
-    width: 55vw; }
 
   .parag-content {
     flex-flow: column; }
@@ -160,6 +204,12 @@
   #nav-bar-1 {
     display: none; }
 
+  .download {
+    position: absolute;
+    bottom: 10px;
+    margin: 0;
+    padding: 0 0 20px 0; }
+
   .download li {
     font-size: 1.1vw;
     min-width: 11vw; }
@@ -167,9 +217,9 @@
   .icons-profile a {
     font-size: 1vw; }
 
-  .picture-content {
-    left: 0;
-    top: 85px; }
+  .menu-nav {
+    display: flex;
+    flex-flow: column; }
 
   .menu-nav-2 {
     display: flex;
@@ -179,7 +229,12 @@
   .content {
     width: 55vw;
     height: 100%;
-    overflow-y: scroll; }
+    overflow-y: scroll;
+    margin: 0 0 0 10px; }
+
+  .content h1 {
+    font-size: 2.5vw;
+    width: 55vw; }
 
   .experience {
     padding: 0 0 0 25px; }
@@ -230,23 +285,67 @@
 
   .education-side {
     width: 100%;
-    padding: 0 0 0 30px; } }
+    padding: 0 0 0 30px; }
+
+  .picture-content {
+    height: 45vh;
+    width: 100%;
+    left: 0;
+    top: 80px;
+    position: absolute; }
+
+  .info {
+    flex-flow: column;
+    top: 55vh;
+    width: 100%;
+    height: 35vh;
+    position: absolute; }
+
+  .info h1 {
+    margin: -135px 0 0 0; }
+
+  .picture-content:before {
+    left: -25%;
+    bottom: -55%;
+    width: 100%;
+    height: 70%; }
+
+  .picture-content:after {
+    left: 25%;
+    bottom: -57%;
+    width: 100%;
+    height: 70%; } }
 @media (min-width: 768px) and (max-width: 1024px) {
+  body {
+    background-repeat: repeat; }
+
   nav {
     width: none;
     height: none; }
 
   .profile {
-    width: 45vw;
-    height: 100%;
-    margin: 0 0 0 10px; }
+    width: 90vw;
+    height: 50vh;
+    margin: 1vh 0 0 0;
+    display: flex;
+    padding: 0 0 0 0;
+    position: initial;
+    flex-flow: row;
+    justify-content: space-between; }
+
+  .picture-content {
+    width: 30vw;
+    height: 50vh;
+    position: initial;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-position-x: center;
+    padding: 0 0 0 0;
+    max-width: 33vw; }
 
   .wrapper-content {
-    height: 90vh;
-    flex-flow: row; }
-
-  .content h1 {
-    font-size: 2.5vw; }
+    height: 100%;
+    flex-flow: column; }
 
   .parag-content {
     flex-flow: column; }
@@ -263,8 +362,21 @@
   .parag-info li {
     font-size: 1.1vw; }
 
+  .menu-nav {
+    display: flex;
+    flex-flow: row; }
+
   #nav-bar-1 {
+    display: inherit; }
+
+  #nav-bar-2 {
     display: none; }
+
+  .download {
+    position: initial;
+    bottom: none;
+    margin: 0;
+    padding: 59px 0 20px 0; }
 
   .download li {
     font-size: 1.1vw;
@@ -273,94 +385,65 @@
   .icons-profile a {
     font-size: 1vw; }
 
-  .picture-content {
-    left: 0;
-    top: 85px; }
-
   .menu-nav-2 {
     display: flex;
     flex-flow: row;
-    width: none; }
+    margin: 25px 0 25px 0;
+    width: 100%; }
 
   .content {
-    width: 55vw;
-    height: 100%;
-    overflow-y: scroll; } }
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  nav {
-    width: none;
-    height: none; }
-
-  .profile {
-    width: 45vw;
-    height: 100%;
-    margin: 0 0 0 10px; }
-
-  .wrapper-content {
-    height: 90vh;
-    flex-flow: row; }
+    width: 90vw;
+    height: none;
+    overflow-y: none;
+    margin: 10px 0 0 0; }
 
   .content h1 {
     font-size: 2.5vw; }
 
-  .parag-content {
-    flex-flow: column; }
+  .left-bar {
+    padding: 0 0 0 0;
+    margin: 10px 0 0 0; }
 
-  .parag-resumen {
-    width: 100%; }
-
-  .parag-resumen p {
-    font-size: 1.1vw; }
-
-  .info-highlight {
-    font-size: 1.1vw; }
-
-  .parag-info li {
-    font-size: 1.1vw; }
-
-  #nav-bar-1 {
-    display: none; }
-
-  .download li {
-    font-size: 1.1vw;
-    min-width: 11vw; }
-
-  .icons-profile a {
-    font-size: 1vw; }
-
-  .picture-content {
-    left: 0;
-    top: 85px; }
-
-  .menu-nav-2 {
-    display: flex;
-    flex-flow: row;
-    margin: 15px 15px 15px 0;
-    width: none; }
-
-  .content {
-    width: 55vw;
-    height: 100%;
-    overflow-y: scroll; } }
+  .info {
+    flex-flow: column;
+    top: none;
+    width: 59vw;
+    height: 50vh;
+    position: initial;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 0 0 0 0; } }
 @media (min-width: 481px) and (max-width: 767px) {
+  body {
+    background-repeat: repeat; }
+
   nav {
     width: none;
     height: none; }
 
   .profile {
-    margin: 0 0 0 10px;
-    width: 97vw;
-    height: 100%;
-    margin: 1vh 0 0 1.5vw;
-    display: block;
-    padding: 0 0 0 0; }
+    width: 90vw;
+    height: 50vh;
+    margin: 1vh 0 0 0;
+    display: flex;
+    padding: 0 0 0 0;
+    position: initial;
+    flex-flow: row;
+    justify-content: space-between; }
+
+  .picture-content {
+    width: 30vw;
+    height: 50vh;
+    position: initial;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-position-x: center;
+    padding: 0 0 0 0;
+    max-width: 33vw; }
 
   .wrapper-content {
     height: 100%;
     flex-flow: column; }
-
-  .content h1 {
-    font-size: 2.5vw; }
 
   .parag-content {
     flex-flow: column; }
@@ -377,8 +460,21 @@
   .parag-info li {
     font-size: 1.1vw; }
 
+  .menu-nav {
+    display: flex;
+    flex-flow: row; }
+
   #nav-bar-1 {
+    display: inherit; }
+
+  #nav-bar-2 {
     display: none; }
+
+  .download {
+    position: initial;
+    bottom: none;
+    margin: 0;
+    padding: 59px 0 20px 0; }
 
   .download li {
     font-size: 1.1vw;
@@ -387,10 +483,6 @@
   .icons-profile a {
     font-size: 1vw; }
 
-  .picture-content {
-    left: 0;
-    top: 85px; }
-
   .menu-nav-2 {
     display: flex;
     flex-flow: row;
@@ -398,28 +490,58 @@
     width: 100%; }
 
   .content {
-    width: 100vw;
+    width: 90vw;
     height: none;
-    overflow-y: none; } }
+    overflow-y: none;
+    margin: 10px 0 0 0; }
+
+  .content h1 {
+    font-size: 2.5vw; }
+
+  .left-bar {
+    padding: 0 0 0 0;
+    margin: 10px 0 0 0; }
+
+  .info {
+    flex-flow: column;
+    top: none;
+    width: 59vw;
+    height: 50vh;
+    position: initial;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 0 0 0 0; } }
 @media (max-width: 480px) {
+  body {
+    background-repeat: repeat; }
+
   nav {
     width: none;
     height: none; }
 
   .profile {
-    margin: 0 0 0 10px;
-    width: 97vw;
-    height: 100%;
-    margin: 1vh 0 0 1.5vw;
-    display: block;
-    padding: 0 0 0 0; }
+    width: 90vw;
+    height: 50vh;
+    margin: 1vh 0 0 0;
+    display: flex;
+    padding: 0 0 0 0;
+    position: initial;
+    flex-flow: row;
+    justify-content: space-between; }
+
+  .picture-content {
+    width: 30vw;
+    height: 50vh;
+    position: initial;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-position-x: center;
+    padding: 0 0 0 0;
+    max-width: 33vw; }
 
   .wrapper-content {
     height: 100%;
     flex-flow: column; }
-
-  .content h1 {
-    font-size: 2.5vw; }
 
   .parag-content {
     flex-flow: column; }
@@ -436,8 +558,21 @@
   .parag-info li {
     font-size: 1.1vw; }
 
+  .menu-nav {
+    display: flex;
+    flex-flow: row; }
+
   #nav-bar-1 {
+    display: inherit; }
+
+  #nav-bar-2 {
     display: none; }
+
+  .download {
+    position: initial;
+    bottom: none;
+    margin: 0;
+    padding: 59px 0 20px 0; }
 
   .download li {
     font-size: 1.1vw;
@@ -446,10 +581,6 @@
   .icons-profile a {
     font-size: 1vw; }
 
-  .picture-content {
-    left: 0;
-    top: 85px; }
-
   .menu-nav-2 {
     display: flex;
     flex-flow: row;
@@ -457,9 +588,27 @@
     width: 100%; }
 
   .content {
-    width: 100vw;
+    width: 90vw;
     height: none;
-    overflow-y: none; } }
+    overflow-y: none;
+    margin: 10px 0 0 0; }
+
+  .content h1 {
+    font-size: 2.5vw; }
+
+  .left-bar {
+    padding: 0 0 0 0;
+    margin: 10px 0 0 0; }
+
+  .info {
+    flex-flow: column;
+    top: none;
+    width: 59vw;
+    height: 50vh;
+    position: initial;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 0 0 0 0; } }
 nav {
   background-color: #fff;
   border-radius: 10px;
@@ -542,16 +691,12 @@ nav {
   color: #31840b; }
 
 .profile {
-  border-radius: 10px;
-  position: relative; }
+  border-radius: 10px; }
 
 .picture-content {
   background-image: url(../img/profile.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 45vh;
-  width: 100%;
-  position: absolute;
   overflow: hidden;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px; }
@@ -559,10 +704,6 @@ nav {
 .picture-content:before {
   content: '';
   position: absolute;
-  left: -25%;
-  bottom: -55%;
-  width: 100%;
-  height: 70%;
   transform: rotate(12deg);
   -webkit-transform: rotate(12deg);
   -moz-transform: rotate(12deg);
@@ -572,10 +713,6 @@ nav {
 .picture-content:after {
   content: '';
   position: absolute;
-  left: 25%;
-  bottom: -57%;
-  width: 100%;
-  height: 70%;
   transform: rotate(-8deg);
   -webkit-transform: rotate(-8deg);
   -moz-transform: rotate(-8deg);
@@ -585,20 +722,14 @@ nav {
 .info {
   background-color: #fff;
   display: flex;
-  flex-flow: column;
   justify-content: center;
   align-items: center;
-  position: absolute;
-  top: 45vh;
-  width: 100%;
-  height: 45vh;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px; }
 
 .info h1 {
   font-size: 2vw;
-  padding: 0;
-  margin: -230px 0 0 0; }
+  padding: 0; }
 
 .info h2 {
   font-size: 1.5rem;
@@ -620,14 +751,10 @@ nav {
   margin: 5px 5px; }
 
 .download {
-  position: absolute;
   width: 90%;
   display: flex;
   flex-flow: row;
-  justify-content: space-around;
-  bottom: 10px;
-  margin: 0;
-  padding: 0 0 20px 0; }
+  justify-content: space-around; }
 
 .download li {
   list-style: none;
@@ -666,7 +793,6 @@ nav {
 .content {
   background-color: #fff;
   border-radius: 10px;
-  margin: 0 0 0 10px;
   scroll-behavior: smooth; }
 
 .content h1 {
@@ -895,7 +1021,6 @@ body {
   margin: 0;
   padding: 0;
   background-image: url(../img/hiking.jpg);
-  background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   font-family: "ubuntu", sans-serif; }
