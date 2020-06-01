@@ -1,0 +1,113 @@
+@media (min-width: 481px) and (max-width: 767px) {
+    body {  
+      background-repeat: repeat;  
+    }
+    nav {
+      width: none;
+      height: none;
+    }
+    .profile {                
+      width: 90vw;
+      height: 50vh;    
+      margin: 1vh 0 0 0;    
+      display: flex;
+      padding: 0 0 0 0;  
+      position: initial;   
+      flex-flow: row;    
+      justify-content: space-between;
+    }
+    .picture-content{
+      width: 30vw;
+      height: 50vh;
+      position: initial;  
+      border-bottom-right-radius: 10px;
+      border-bottom-left-radius: 10px;
+      background-position-x: center;
+      padding: 0 0 0 0;
+      max-width: 33vw;
+    }
+    .wrapper-content {
+      height: 100%;    
+      flex-flow: column;    
+    }
+    .parag-content{
+      flex-flow: column;
+    }
+    .parag-resumen{
+      width: 100%;
+    }
+    .parag-resumen p {
+      font-size: 1.1vw;
+    }
+    .info-highlight{
+      font-size: 1.1vw;
+    }  
+    .parag-info li{    
+      font-size: 1.1vw;   
+    }
+    .menu-nav{
+      display: flex;
+      flex-flow: row;    
+    }  
+    #nav-bar-1 {
+      display: inherit;
+    }
+    #nav-bar-2 {
+      display: none;
+    }
+    .download {
+      position: initial;
+      bottom: none;
+      margin: 0;
+      padding: 59px 0 20px 0 ;
+    }
+    .download li{
+      font-size: 1.1vw;
+      min-width: 11vw;
+    }
+    .icons-profile a{
+      font-size: 1vw;
+    }
+    
+    .menu-nav-2{
+      display: flex;
+      flex-flow: row;    
+      margin: 25px 0 25px 0;
+      width: 100%;
+    }  
+    .content {    
+      width: 90vw;  
+      height: none;
+      overflow-y: none;  
+      margin: 10px 0 0 0; 
+    }
+    .content h1{
+      font-size: 2.5vw;
+    }
+    .left-bar{
+      padding: 0 0 0 0;
+      margin: 10px 0 0 0;
+    }
+    .info{
+      flex-flow: column;
+      top:none;
+      width: 59vw;
+      height: 50vh;
+      position: initial;   
+      border-top-right-radius: 10px;
+      border-top-left-radius: 10px;
+      padding: 0 0 0 0; 
+    }
+    .experience-wrapper{    
+      flex-flow: column;
+    }
+    .experience-side{
+      width: 100%;
+      padding: 0 0 0 30px;
+    }
+    .education-side{
+        width: 100%;
+        padding: 0 0 0 30px;
+    }
+  
+  }
