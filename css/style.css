@@ -25,8 +25,7 @@ nav {
 .menu-nav li {
   list-style: none;
   height: 8vh;
-  width: 100%;
-  border-bottom: 1px solid #e6e6e6; }
+  width: 100%; }
 
 .menu-nav-2 li {
   list-style: none;
@@ -117,13 +116,10 @@ nav {
   border-bottom-right-radius: 10px; }
 
 .info h1 {
-  font-size: 2vw;
   padding: 0; }
 
 .info h2 {
-  font-size: 1.5rem;
   font-weight: lighter;
-  padding: 20px 0 0 0;
   margin: 0;
   color: #15b01f; }
 
@@ -142,14 +138,11 @@ nav {
 .download {
   width: 90%;
   display: flex;
-  flex-flow: row;
-  justify-content: space-around; }
+  flex-flow: row; }
 
 .download li {
   list-style: none;
   height: 5vh;
-  margin: 0;
-  padding: 15px 0 0 0;
   border: 1px solid #ddd9d9;
   text-align: center;
   box-shadow: -3px 3px 3px #d2cfcf; }
@@ -194,9 +187,6 @@ nav {
   align-items: center;
   padding: 15px 0 0 25px;
   flex-flow: row; }
-
-.title-content i {
-  font-size: 1.5vw; }
 
 .parag-content {
   display: flex;
@@ -252,20 +242,11 @@ nav {
 .project-image {
   width: 40%; }
 
-.project-content {
-  width: 60%; }
-
 .project-content h2 {
   margin: 0; }
 
 .project-wrapper {
-  display: flex;
-  flex-flow: row;
-  width: 100%;
-  justify-content: center;
-  align-content: center;
-  margin: 0;
-  padding: 0 0 100px 0; }
+  display: flex; }
 
 .tags-wrapper {
   display: flex;
@@ -307,24 +288,18 @@ nav {
   background-image: url(../img/article-01.png); }
 
 .link-demo {
-  padding-top: 30px;
   width: 90%;
   height: 3vh;
   display: flex;
   flex-flow: row;
   position: relative;
-  top: 100%;
   left: 15px;
   justify-content: center; }
 
 .demo-button {
   border: 1px solid #8AB98A;
-  padding: 5px 30px 5px 10px;
-  font-size: 0.7vw;
-  width: 5.5vw;
   border-radius: 6px;
   text-align: center;
-  margin: 0 0 0 5px;
   background-color: #15b01f; }
 
 .demo-button a {
@@ -384,10 +359,7 @@ nav {
   list-style: square; }
 
 .head-content {
-  display: flex;
-  flex-flow: row;
-  align-items: flex-end;
-  justify-content: space-between; }
+  display: flex; }
 
 @media (min-width: 1281px) {
   body {
@@ -449,11 +421,14 @@ nav {
     position: absolute;
     bottom: 10px;
     margin: 0;
-    padding: 0 0 20px 0; }
+    padding: 0 0 20px 0;
+    justify-content: space-around; }
 
   .download li {
     font-size: 0.9vw;
-    min-width: 9vw; }
+    min-width: 9vw;
+    padding: 15px 0 0 0;
+    margin: 0; }
 
   .icons-profile a {
     font-size: 0.8vw; }
@@ -579,7 +554,11 @@ nav {
     position: absolute; }
 
   .info h1 {
-    margin: -230px 0 0 0; }
+    margin: -110px 0 0 0;
+    font-size: 2rem; }
+
+  .info h2 {
+    font-size: 1.5rem; }
 
   .picture-content:before {
     left: -25%;
@@ -595,7 +574,53 @@ nav {
 
   .left-bar {
     padding: 0 0 0 0;
-    margin: 0; } }
+    margin: 0; }
+
+  .contact-me h2 {
+    font-size: 1.5vw;
+    word-break: break-word; }
+
+  #picture-1 {
+    display: inherit; }
+
+  #picture-2 {
+    display: none; }
+
+  .menu-nav li {
+    border-bottom: 1px solid #e6e6e6; }
+
+  .info h2 {
+    padding: 20px 0 0 0; }
+
+  .head-content {
+    flex-flow: row;
+    align-items: flex-end;
+    justify-content: space-between; }
+
+  .project-wrapper {
+    flex-flow: row;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    margin: 0;
+    padding: 0 0 100px 0; }
+
+  .project-content {
+    width: 60%; }
+
+  .link-demo {
+    top: 100%;
+    padding-top: 30px;
+    left: 15px; }
+
+  .title-content i {
+    font-size: 1.5vw; }
+
+  .demo-button {
+    padding: 5px 25px 25px 25px;
+    font-size: 0.7vw;
+    width: 5.5vw;
+    margin: 0 0 0 5px; } }
 @media (min-width: 1025px) and (max-width: 1280px) {
   body {
     background-repeat: no-repeat; }
@@ -636,11 +661,14 @@ nav {
     position: absolute;
     bottom: 10px;
     margin: 0;
-    padding: 0 0 20px 0; }
+    padding: 0 0 20px 0;
+    justify-content: space-around; }
 
   .download li {
     font-size: 1.1vw;
-    min-width: 11vw; }
+    min-width: 11vw;
+    padding: 15px 0 0 0;
+    margin: 0; }
 
   .icons-profile a {
     font-size: 1vw; }
@@ -755,7 +783,7 @@ nav {
     height: 45vh;
     width: 100%;
     left: 0;
-    top: 85px;
+    top: 80px;
     position: absolute; }
 
   .info {
@@ -766,7 +794,12 @@ nav {
     position: absolute; }
 
   .info h1 {
+    font-size: 2rem;
     margin: -135px 0 0 0; }
+
+  .info h2 {
+    font-size: 1.5rem;
+    padding: 20px 0 0 0; }
 
   .picture-content:before {
     left: -25%;
@@ -781,7 +814,50 @@ nav {
     height: 70%; }
 
   .project-wrapper {
-    max-width: 70vw; } }
+    max-width: 70vw; }
+
+  .contact-me h2 {
+    font-size: 1.7vw;
+    word-break: break-word; }
+
+  #picture-1 {
+    display: inherit; }
+
+  #picture-2 {
+    display: none; }
+
+  .menu-nav-2 li {
+    border-bottom: none; }
+
+  .head-content {
+    flex-flow: row;
+    align-items: flex-end;
+    justify-content: space-between; }
+
+  .project-wrapper {
+    flex-flow: row;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    margin: 0;
+    padding: 0 0 100px 0; }
+
+  .project-content {
+    width: 60%; }
+
+  .link-demo {
+    top: 100%;
+    padding-top: 30px;
+    left: 15px; }
+
+  .title-content i {
+    font-size: 2vw; }
+
+  .demo-button {
+    padding: 5px 30px 5px 10px;
+    font-size: 0.7vw;
+    width: 5.5vw;
+    margin: 0 0 0 5px; } }
 @media (min-width: 768px) and (max-width: 1024px) {
   body {
     background-repeat: repeat; }
@@ -831,7 +907,8 @@ nav {
 
   .menu-nav {
     display: flex;
-    flex-flow: row; }
+    flex-flow: row;
+    width: 100%; }
 
   #nav-bar-1 {
     display: inherit; }
@@ -843,14 +920,17 @@ nav {
     position: initial;
     bottom: none;
     margin: 0;
-    padding: 59px 0 20px 0; }
+    padding: 25px 0 25px 0;
+    justify-content: center; }
 
   .download li {
-    font-size: 1.1vw;
-    min-width: 11vw; }
+    font-size: 1.5vw;
+    min-width: 11vw;
+    padding: 15px 15px 0 15px;
+    margin: 0 15px 0 15px; }
 
   .icons-profile a {
-    font-size: 1vw; }
+    font-size: 1.5vw; }
 
   .menu-nav-2 {
     display: flex;
@@ -862,10 +942,10 @@ nav {
     width: 97vw;
     height: none;
     overflow-y: none;
-    margin: 10px 0 0 0; }
+    margin: 220px 0 0 0; }
 
   .content h1 {
-    font-size: 2.5vw; }
+    font-size: 3.5vw; }
 
   .left-bar {
     padding: 0 0 0 0;
@@ -874,12 +954,12 @@ nav {
   .info {
     flex-flow: column;
     top: none;
-    width: 59vw;
-    height: 50vh;
+    width: 97vw;
+    height: 75vh;
     position: initial;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
-    padding: 0 0 0 0; }
+    padding: 15px 0 0 0; }
 
   .project-wrapper {
     max-width: 85vw; }
@@ -941,7 +1021,61 @@ nav {
     font-size: 1.1vw; }
 
   .text-experience {
-    font-size: 1.1vw; } }
+    font-size: 1.1vw; }
+
+  .contact-me h2 {
+    font-size: 1.9vw;
+    word-break: break-word; }
+
+  #picture-1 {
+    display: none; }
+
+  #picture-2 {
+    display: inherit; }
+
+  .menu-nav-2 li {
+    border-bottom: none; }
+
+  .info h1 {
+    font-size: 2rem; }
+
+  .info h2 {
+    padding: 0 0 0 0;
+    font-size: 1.5rem; }
+
+  .head-content {
+    flex-flow: row;
+    align-items: flex-end;
+    justify-content: space-between; }
+
+  .project-wrapper {
+    flex-flow: row;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    margin: 0;
+    padding: 0 0 100px 0; }
+
+  .project-content {
+    width: 60%; }
+
+  .project-image {
+    background-position-y: 0;
+    background-position-x: center; }
+
+  .link-demo {
+    top: 100%;
+    padding-top: 30px;
+    left: 15px; }
+
+  .title-content i {
+    font-size: 2.5vw; }
+
+  .demo-button {
+    padding: 10px 30px 25px 30px;
+    font-size: 1.7vw;
+    width: 5.5vw;
+    margin: 0 0 0 5px; } }
 @media (min-width: 481px) and (max-width: 767px) {
   body {
     background-repeat: repeat; }
@@ -951,9 +1085,9 @@ nav {
     height: none; }
 
   .profile {
-    width: 90vw;
+    width: 97vw;
     height: 50vh;
-    margin: 1vh 0 0 0;
+    margin: 10px 0 0 0;
     display: flex;
     padding: 0 0 0 0;
     position: initial;
@@ -972,7 +1106,8 @@ nav {
 
   .wrapper-content {
     height: 100%;
-    flex-flow: column; }
+    flex-flow: column;
+    width: 97%; }
 
   .parag-content {
     flex-flow: column; }
@@ -981,17 +1116,18 @@ nav {
     width: 100%; }
 
   .parag-resumen p {
-    font-size: 1.1vw; }
+    font-size: 2vw; }
 
   .info-highlight {
-    font-size: 1.1vw; }
+    font-size: 2vw; }
 
   .parag-info li {
-    font-size: 1.1vw; }
+    font-size: 2vw; }
 
   .menu-nav {
     display: flex;
-    flex-flow: row; }
+    flex-flow: row;
+    width: 100%; }
 
   #nav-bar-1 {
     display: inherit; }
@@ -1003,14 +1139,17 @@ nav {
     position: initial;
     bottom: none;
     margin: 0;
-    padding: 59px 0 20px 0; }
+    padding: 25px 0 25px 0;
+    justify-content: center; }
 
   .download li {
-    font-size: 1.1vw;
-    min-width: 11vw; }
+    font-size: 1.7vw;
+    min-width: 11vw;
+    padding: 15px 15px 0 15px;
+    margin: 0 15px 0 15px; }
 
   .icons-profile a {
-    font-size: 1vw; }
+    font-size: 1.9vw; }
 
   .menu-nav-2 {
     display: flex;
@@ -1019,13 +1158,13 @@ nav {
     width: 100%; }
 
   .content {
-    width: 90vw;
+    width: 97vw;
     height: none;
     overflow-y: none;
-    margin: 10px 0 0 0; }
+    margin: 135px 0 0 0; }
 
   .content h1 {
-    font-size: 2.5vw; }
+    font-size: 4vw; }
 
   .left-bar {
     padding: 0 0 0 0;
@@ -1034,23 +1173,85 @@ nav {
   .info {
     flex-flow: column;
     top: none;
-    width: 59vw;
-    height: 50vh;
+    width: 97vw;
+    height: 65vh;
     position: initial;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
-    padding: 0 0 0 0; }
+    padding: 10px 0 0 0; }
 
   .experience-wrapper {
     flex-flow: column; }
 
   .experience-side {
-    width: 100%;
+    width: 95%;
     padding: 0 0 0 30px; }
 
   .education-side {
+    width: 95%;
+    padding: 0 0 0 30px; }
+
+  .contact-me h2 {
+    font-size: 1.9vw;
+    word-break: break-word; }
+
+  #picture-1 {
+    display: none; }
+
+  #picture-2 {
+    display: inherit; }
+
+  .menu-nav-2 li {
+    border-bottom: none; }
+
+  .info h1 {
+    font-size: 2rem; }
+
+  .info h2 {
+    padding: 0 0 0 0;
+    font-size: 1.5rem; }
+
+  .head-content {
+    flex-flow: column;
+    align-items: flex-start;
+    justify-content: space-between; }
+
+  .project-wrapper {
+    flex-flow: column;
     width: 100%;
-    padding: 0 0 0 30px; } }
+    justify-content: center;
+    align-content: center;
+    margin: 0;
+    padding: 60px 0 100px 0; }
+
+  .project-content {
+    width: 90%;
+    padding-left: 30px;
+    padding-top: 90px; }
+
+  .project-image {
+    background-position-y: 0;
+    background-position-x: center;
+    min-height: 250px;
+    width: 100%; }
+
+  .link-demo {
+    top: 230px;
+    padding-top: 50px;
+    left: 30px; }
+
+  .title-content i {
+    font-size: 3.5vw; }
+
+  .demo-button {
+    padding: 10px 30px 25px 30px;
+    font-size: 1.7vw;
+    width: 5.5vw;
+    margin: 0 0 0 5px; }
+
+  .tags {
+    padding: 5px 30px 5px 30px;
+    font-size: 1.9vw; } }
 @media (max-width: 480px) {
   body {
     background-repeat: repeat; }
@@ -1060,9 +1261,9 @@ nav {
     height: none; }
 
   .profile {
-    width: 90vw;
+    width: 96vw;
     height: 50vh;
-    margin: 1vh 0 0 0;
+    margin: 10px 0 0 0;
     display: flex;
     padding: 0 0 0 0;
     position: initial;
@@ -1081,7 +1282,8 @@ nav {
 
   .wrapper-content {
     height: 100%;
-    flex-flow: column; }
+    flex-flow: column;
+    width: 96%; }
 
   .parag-content {
     flex-flow: column; }
@@ -1100,7 +1302,10 @@ nav {
 
   .menu-nav {
     display: flex;
-    flex-flow: row; }
+    flex-flow: row;
+    width: 96%;
+    margin: 0;
+    padding: 0; }
 
   #nav-bar-1 {
     display: inherit; }
@@ -1112,14 +1317,17 @@ nav {
     position: initial;
     bottom: none;
     margin: 0;
-    padding: 59px 0 20px 0; }
+    padding: 59px 0 20px 0;
+    justify-content: center; }
 
   .download li {
     font-size: 1.1vw;
-    min-width: 11vw; }
+    min-width: 11vw;
+    padding: 15px 15px 0 15px;
+    margin: 0 15px 0 15px; }
 
   .icons-profile a {
-    font-size: 1vw; }
+    font-size: 2.5vw; }
 
   .menu-nav-2 {
     display: flex;
@@ -1128,10 +1336,10 @@ nav {
     width: 100%; }
 
   .content {
-    width: 90vw;
+    width: 96vw;
     height: none;
     overflow-y: none;
-    margin: 10px 0 0 0; }
+    margin: 20px 0 0 0; }
 
   .content h1 {
     font-size: 2.5vw; }
@@ -1143,23 +1351,83 @@ nav {
   .info {
     flex-flow: column;
     top: none;
-    width: 59vw;
+    width: 97vw;
     height: 50vh;
     position: initial;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
-    padding: 0 0 0 0; }
+    padding: 10px 0 0 0; }
 
   .experience-wrapper {
     flex-flow: column; }
 
   .experience-side {
-    width: 100%;
+    width: 90%;
     padding: 0 0 0 30px; }
 
   .education-side {
+    width: 90%;
+    padding: 0 0 0 30px; }
+
+  .contact-me h2 {
+    font-size: 1.9vw;
+    word-break: break-word; }
+
+  #picture-1 {
+    display: none; }
+
+  #picture-2 {
+    display: inherit; }
+
+  .menu-nav-2 li {
+    border-bottom: none; }
+
+  .head-content {
+    flex-flow: column;
+    align-items: flex-start;
+    justify-content: space-between; }
+
+  .project-wrapper {
+    flex-flow: column;
     width: 100%;
-    padding: 0 0 0 30px; } }
+    justify-content: center;
+    align-content: center;
+    margin: 0;
+    padding: 60px 0 100px 0; }
+
+  .project-content {
+    width: 90%;
+    padding-left: 30px;
+    padding-top: 65px; }
+
+  .project-image {
+    background-position-y: 0;
+    background-position-x: center;
+    min-height: 250px;
+    width: 100%; }
+
+  .link-demo {
+    top: 230px; }
+
+  .title-content i {
+    font-size: 1.5vw; }
+
+  .demo-button {
+    padding: 5px 30px 5px 10px;
+    font-size: 0.7vw;
+    width: 5.5vw;
+    margin: 0 0 0 5px; }
+
+  .tags {
+    padding: 5px 30px 5px 30px;
+    font-size: 2.5vw; }
+
+  .info h1 {
+    font-size: 5vw; }
+
+  .info h2 {
+    padding: 0 0 0 0;
+    font-size: 4.5vw; } }
 body {
   margin: 0;
   padding: 0;
@@ -1179,5 +1447,15 @@ main {
 
 .wrapper-content {
   display: flex; }
+
+.contact-me {
+  padding: 120px 0 120px 0;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center; }
+
+.contact-me h2 {
+  text-align: center; }
 
 /*# sourceMappingURL=style.css.map */

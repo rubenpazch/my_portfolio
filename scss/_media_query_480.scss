@@ -9,9 +9,9 @@
       height: none;
     }
     .profile {                
-      width: 90vw;
+      width: 96vw;
       height: 50vh;    
-      margin: 1vh 0 0 0;    
+      margin: 10px 0 0 0;    
       display: flex;
       padding: 0 0 0 0;  
       position: initial;   
@@ -30,7 +30,8 @@
     }
     .wrapper-content {
       height: 100%;    
-      flex-flow: column;    
+      flex-flow: column;
+      width: 96%;    
     }
     .parag-content{
       flex-flow: column;
@@ -50,6 +51,9 @@
     .menu-nav{
       display: flex;
       flex-flow: row;    
+      width: 96%;
+      margin: 0;
+      padding: 0;
     }  
     #nav-bar-1 {
       display: inherit;
@@ -62,13 +66,16 @@
       bottom: none;
       margin: 0;
       padding: 59px 0 20px 0 ;
+      justify-content: center; 
     }
     .download li{
       font-size: 1.1vw;
       min-width: 11vw;
+      padding: 15px 15px 0 15px;    
+      margin: 0 15px 0 15px;
     }
     .icons-profile a{
-      font-size: 1vw;
+      font-size: 2.5vw;
     }
     
     .menu-nav-2{
@@ -78,10 +85,10 @@
       width: 100%;
     }  
     .content {    
-      width: 90vw;  
+      width: 96vw;  
       height: none;
       overflow-y: none;  
-      margin: 10px 0 0 0; 
+      margin: 20px 0 0 0; 
     }
     .content h1{
       font-size: 2.5vw;
@@ -93,23 +100,82 @@
     .info{
       flex-flow: column;
       top:none;
-      width: 59vw;
+      width: 97vw;
       height: 50vh;
       position: initial;   
       border-top-right-radius: 10px;
       border-top-left-radius: 10px;
-      padding: 0 0 0 0; 
+      padding: 10px 0 0 0; 
     }
     .experience-wrapper{    
       flex-flow: column;
     }
     .experience-side{
-      width: 100%;
+      width: 90%;
       padding: 0 0 0 30px;
     }
     .education-side{
-        width: 100%;
+        width: 90%;
         padding: 0 0 0 30px;
     }
-  
+    .contact-me h2{    
+      font-size: 1.9vw;
+      word-break: break-word;
+    }
+    #picture-1{
+      display: none;
+    }
+    #picture-2{
+      display: inherit;
+    }
+    .menu-nav-2 li{    
+      border-bottom: none;    
+    }
+    .head-content{    
+      flex-flow: column;
+      align-items: flex-start;
+      justify-content: space-between;
+    }
+    .project-wrapper{
+      flex-flow: column;
+      width: 100%;
+      justify-content: center;
+      align-content: center;
+      margin: 0;
+      padding: 60px 0 100px 0;
+    }
+    .project-content{
+      width: 90%;    
+      padding-left: 30px;    
+      padding-top: 65px;
+    }
+    .project-image{         
+      background-position-y: 0;    
+      background-position-x: center;
+      min-height: 250px;
+      width: 100%;
+    }
+    .link-demo{    
+      top: 230px;    
+    }
+    .title-content i{
+      font-size: 1.5vw;
+    }
+    .demo-button{      
+      padding: 5px 30px 5px 10px;
+      font-size: 0.7vw;
+      width: 5.5vw;
+      margin: 0 0 0 5px;      
+    }
+    .tags{     
+      padding: 5px 30px 5px 30px;
+      font-size: 2.5vw;        
+    }
+    .info h1{
+      font-size: 5vw;
+    }
+    .info h2{    
+      padding: 0 0 0 0;     
+      font-size: 4.5vw;      
+    }    
   }

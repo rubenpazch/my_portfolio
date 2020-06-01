@@ -61,10 +61,13 @@
       bottom: 10px;
       margin: 0;
       padding: 0 0 20px 0 ;
+      justify-content: space-around;    
     }
     .download li{
       font-size: 0.9vw;
       min-width: 9vw;
+      padding: 15px 0 0 0;    
+      margin: 0;
     }
     .icons-profile a{
       font-size: 0.8vw;
@@ -197,8 +200,14 @@
     }
   
     .info h1{   
-      margin: -230px 0 0 0 ;
+      margin: -110px 0 0 0 ;
+      font-size: 2rem;
     }
+
+    .info h2{
+      font-size: 1.5rem;      
+    }
+  
     .picture-content:before{        
       left: -25%;
       bottom: -55%;
@@ -215,5 +224,55 @@
       padding: 0 0 0 0;
       margin: 0;
     }
-  
+    .contact-me h2{    
+      font-size: 1.5vw;
+      word-break: break-word;
+    }
+    #picture-1{
+      display: inherit;
+    }
+    #picture-2{
+      display: none;
+    }
+    .menu-nav li{    
+      border-bottom: 1px solid #e6e6e6;    
+    }
+    
+    .info h2{    
+      padding: 20px 0 0 0;     
+    } 
+    .head-content{    
+      flex-flow: row;
+      align-items: flex-end;
+      justify-content: space-between;
+    }
+    .project-wrapper{
+      flex-flow: row;
+      width: 100%;
+      justify-content: center;
+      align-content: center;
+      margin: 0;
+      padding: 0 0 100px 0;
+    }
+
+    .project-content{
+      width: 60%;    
+    }
+    
+    .link-demo{    
+      top: 100%;    
+      padding-top: 30px;
+      left: 15px;
+    }
+
+    .title-content i{
+      font-size: 1.5vw;
+    }
+
+    .demo-button{      
+      padding: 5px 25px 25px 25px;
+      font-size: 0.7vw;
+      width: 5.5vw;
+      margin: 0 0 0 5px;      
+    }
   }

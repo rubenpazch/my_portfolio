@@ -35,3 +35,15 @@ main {
 .wrapper-content {
     display: flex;    
 }
+
+.contact-me{
+    padding: 120px 0 120px 0;    
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-me h2{
+    text-align: center;
+}

@@ -48,6 +48,7 @@
     .menu-nav{
       display: flex;
       flex-flow: row;    
+      width: 100%;
     }  
     #nav-bar-1 {
       display: inherit;
@@ -59,14 +60,17 @@
       position: initial;
       bottom: none;
       margin: 0;
-      padding: 59px 0 20px 0 ;
+      padding: 25px 0 25px 0 ;
+      justify-content: center;    
     }
     .download li{
-      font-size: 1.1vw;
+      font-size: 1.5vw;
       min-width: 11vw;
+      padding: 15px 15px 0 15px;    
+      margin: 0 15px 0 15px;
     }
     .icons-profile a{
-      font-size: 1vw;
+      font-size: 1.5vw;
     }
     
     .menu-nav-2{
@@ -79,10 +83,10 @@
       width: 97vw;  
       height: none;
       overflow-y: none;  
-      margin: 10px 0 0 0; 
+      margin: 220px 0 0 0; 
     }
     .content h1{
-      font-size: 2.5vw;
+      font-size: 3.5vw;
     }
     .left-bar{
       padding: 0 0 0 0;
@@ -91,12 +95,12 @@
     .info{
       flex-flow: column;
       top:none;
-      width: 59vw;
-      height: 50vh;
+      width: 97vw;
+      height: 75vh;
       position: initial;   
       border-top-right-radius: 10px;
       border-top-left-radius: 10px;
-      padding: 0 0 0 0; 
+      padding: 15px 0 0 0; 
     }
     .project-wrapper{  
       max-width: 85vw;    
@@ -160,5 +164,58 @@
     .text-experience{    
       font-size: 1.1vw;  
     }
-
+    .contact-me h2{    
+      font-size: 1.9vw;
+      word-break: break-word;
+    }
+    #picture-1{
+      display: none;
+    }
+    #picture-2{
+      display: inherit;
+    }
+    .menu-nav-2 li{    
+      border-bottom: none;    
+    }
+    .info h1{
+      font-size: 2rem;
+    }
+    .info h2{    
+      padding: 0 0 0 0;     
+      font-size: 1.5rem;      
+    }    
+    .head-content{    
+      flex-flow: row;
+      align-items: flex-end;
+      justify-content: space-between;
+    }
+    .project-wrapper{
+      flex-flow: row;
+      width: 100%;
+      justify-content: center;
+      align-content: center;
+      margin: 0;
+      padding: 0 0 100px 0;
+    }
+    .project-content{
+      width: 60%;    
+    } 
+    .project-image{         
+      background-position-y: 0;    
+      background-position-x: center;
+    }
+    .link-demo{    
+      top: 100%;    
+      padding-top: 30px;
+      left: 15px;
+    }
+    .title-content i{
+      font-size: 2.5vw;
+    }
+    .demo-button{      
+      padding: 10px 30px 25px 30px;
+      font-size: 1.7vw;
+      width: 5.5vw;
+      margin: 0 0 0 5px;      
+    }
   } 

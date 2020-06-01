@@ -2,22 +2,12 @@
     width: 40%;    
 }
 
-.project-content{
-    width: 60%;    
-}
-
 .project-content h2{
     margin: 0; 
 }
 
 .project-wrapper{
-    display: flex;
-    flex-flow: row;
-    width: 100%;
-    justify-content: center;
-    align-content: center;
-    margin: 0;
-    padding: 0 0 100px 0;
+    display: flex;    
 }
 .tags-wrapper{
     display: flex;
@@ -67,26 +57,20 @@
     
 }
 
-.link-demo{
-    padding-top: 30px;
+.link-demo{    
     width: 90%;
     height: 3vh;
     display: flex;
     flex-flow: row;
-    position: relative;
-    top: 100%;
+    position: relative;    
     left: 15px;
     justify-content: center;
 }
 
 .demo-button{
     border: 1px solid #8AB98A;
-    padding: 5px 30px 5px 10px;
-    font-size: 0.7vw;
-    width: 5.5vw;
     border-radius: 6px;
     text-align: center;
-    margin: 0 0 0 5px;
     background-color: #15b01f;
 }
 

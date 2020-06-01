@@ -1,16 +1,12 @@
-
 .download {    
     width: 90%;
     display: flex;
-    flex-flow: row;
-    justify-content: space-around;    
+    flex-flow: row;    
 }
 
 .download li{
     list-style: none;    
-    height: 5vh;
-    margin: 0;
-    padding: 15px 0 0 0;    
+    height: 5vh;    
     border: 1px solid #ddd9d9;    
     text-align: center;
     box-shadow: -3px 3px 3px #d2cfcf;
