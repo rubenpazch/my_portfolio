@@ -1,0 +1,26 @@
+.download {    
+    width: 90%;
+    display: flex;
+    flex-flow: row;    
+}
+
+.download li{
+    list-style: none;    
+    height: 5vh;    
+    border: 1px solid #ddd9d9;    
+    text-align: center;
+    box-shadow: -3px 3px 3px #d2cfcf;
+}
+
+.link-cv {
+    text-decoration: none;
+    color: #000;
+    padding-left: 15px;
+}
+
+.link-cv:hover {
+    text-decoration: none;
+    font-weight: bolder;
+    color: #000;
+    text-decoration: underline;    
+}

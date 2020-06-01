@@ -1,0 +1,49 @@
+@import '../scss/nav_bar.scss';
+@import '../scss/profile.scss';
+@import '../scss/download.scss';
+@import '../scss/icons.scss';
+@import '../scss/about_me.scss';
+@import '../scss/scroll_decorate.scss';
+@import '../scss/projects.scss';
+@import '../scss/experience';
+@import '../scss/media_query_1281.scss';
+@import '../scss/media_query_1025_1280.scss';
+@import '../scss/media_query_768_1024.scss';
+@import '../scss/media_query_481_767.scss';
+@import '../scss/media_query_480.scss';
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/hiking.jpg);
+    background-position: center;
+    background-size: cover;
+    font-family: "ubuntu", sans-serif;    
+}
+
+main {    
+    max-width: 1180px;
+    margin: auto;
+    height: 100vh;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper-content {
+    display: flex;    
+}
+
+.contact-me{
+    padding: 120px 0 120px 0;    
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-me h2{
+    text-align: center;
+}

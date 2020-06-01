@@ -1,0 +1,55 @@
+.content {        
+    background-color: #fff;    
+    border-radius: 10px;        
+    scroll-behavior: smooth;
+}
+.content h1{    
+    font-weight: 900;
+    padding-left: 15px;
+}
+
+.title-content{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 15px 0 0 25px;
+    flex-flow: row;
+}
+
+.parag-content {    
+    display: flex;
+    justify-content: left;
+}
+
+.parag-resumen {      
+    margin: 0;
+    padding: 0;
+}
+
+.parag-resumen p{
+    padding: 0 25px;
+    font-family: "ubuntu", sans-serif;    
+    font-weight: 100;    
+    text-align: left;
+}
+.parag-info{
+    margin: 0;    
+    padding: 0 25px;
+}
+
+.parag-info li{
+    list-style: none;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 1.5rem; 
+    padding: 8px 0; 
+}
+
+.info-highlight{
+    background-color: #15b01f;      
+    color: #fff;    
+    font-weight: 400;
+}
+

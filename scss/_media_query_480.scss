@@ -1,0 +1,209 @@
+  
+
+@media (max-width: 480px) {
+    body {  
+      background-repeat: repeat;  
+    }
+    nav {
+      width: none;
+      height: none;
+    }
+    .profile {                
+      width: 96vw;
+      height: 50vh;    
+      margin: 10px 0 0 0;    
+      display: flex;
+      padding: 0 0 0 0;  
+      position: initial;   
+      flex-flow: row;    
+      justify-content: space-between;
+    }
+    .picture-content{
+      width: 30vw;
+      height: 50vh;
+      position: initial;  
+      border-bottom-right-radius: 10px;
+      border-bottom-left-radius: 10px;
+      background-position-x: center;
+      padding: 0 0 0 0;
+      max-width: 33vw;
+    }
+    .wrapper-content {
+      height: 100%;    
+      flex-flow: column;
+      width: 96%;    
+    }
+    .parag-content{
+      flex-flow: column;
+    }
+    .parag-resumen{
+      width: 100%;
+    }
+    .parag-resumen p {
+      font-size: 3vw;
+      line-height: 2rem;
+    }
+    .info-highlight{
+      font-size: 3vw;
+      padding: 0.3vh 6vw 0.3vh 6vw;  
+    }  
+    .parag-info li{    
+      font-size: 3vw;   
+    }
+    .menu-nav{
+      display: flex;
+      flex-flow: row;    
+      width: 96%;
+      margin: 0;
+      padding: 0;
+    }  
+    #nav-bar-1 {
+      display: inherit;
+    }
+    #nav-bar-2 {
+      display: none;
+    }
+    .download {
+      position: initial;
+      bottom: none;
+      margin: 0;
+      padding: 59px 0 20px 0 ;
+      justify-content: center; 
+    }
+    .download li{
+      font-size: 3vw;
+      min-width: 11vw;
+      padding: 15px 15px 0 15px;    
+      margin: 0 15px 0 15px;
+    }
+    .icons-profile a{
+      font-size: 2.5vw;
+    }
+    
+    .menu-nav-2{
+      display: flex;
+      flex-flow: row;    
+      margin: 25px 0 25px 0;
+      width: 100%;
+    }  
+    .content {    
+      width: 96vw;  
+      height: none;
+      overflow-y: none;  
+      margin: 95px 0 0 0; 
+    }
+    .content h1{
+      font-size: 7vw;
+    }
+    .left-bar{
+      padding: 0 0 0 0;
+      margin: 10px 0 0 0;
+    }
+    .info{
+      flex-flow: column;
+      top:none;
+      width: 97vw;
+      height: 60vh;
+      position: initial;   
+      border-top-right-radius: 10px;
+      border-top-left-radius: 10px;
+      padding: 10px 0 0 0; 
+    }
+    .experience-wrapper{    
+      flex-flow: column;
+    }
+    .experience-side{
+      width: 90%;
+      padding: 0 0 0 30px;
+    }
+
+    .experience{
+      padding: 0 0 60px 0;
+    }
+
+    .experience h2{
+      padding: 30px 0 30px 0;
+    }
+
+    .education{
+      padding: 0 0 60px 0;
+    }
+
+    .education h2{
+      padding: 30px 0 30px 0;
+    }
+
+    .education-side{
+        width: 90%;
+        padding: 0 0 0 30px;
+    }
+    .contact-me h2{    
+      font-size: 1.9vw;
+      word-break: break-word;
+    }
+    #picture-1{
+      display: none;
+    }
+    #picture-2{
+      display: inherit;
+    }
+    .menu-nav-2 li{    
+      border-bottom: none;    
+    }
+    .head-content{    
+      flex-flow: column;
+      align-items: flex-start;
+      justify-content: space-between;
+    }
+    .project-wrapper{
+      flex-flow: column;
+      width: 100%;
+      justify-content: center;
+      align-content: center;
+      margin: 0;
+      padding: 60px 0 100px 0;
+    }
+    .project-content{
+      width: 90%;    
+      padding-left: 30px;    
+      padding-top: 110px;
+    }
+    .project-image{         
+      background-position-y: 0;    
+      background-position-x: center;
+      min-height: 250px;
+      width: 100%;
+    }
+    .link-demo{    
+      top: 230px;    
+    }
+    .title-content i{
+      font-size: 6.5vw;
+    }
+    .demo-button{      
+      padding: 10px 50px 30px 25px;
+      font-size: 3vw;
+      width: 5.5vw;
+      margin: 50px 0 0 50px;      
+    }
+    .tags{     
+      padding: 5px 30px 5px 30px;
+      font-size: 3vw;        
+    }
+    .info h1{
+      font-size: 5vw;
+    }
+    .info h2{    
+      padding: 0 0 0 0;     
+      font-size: 4.5vw;      
+    }    
+    .project-content p{  
+      font-size: 3vw;    
+    }
+    .list-info li{  
+      font-size: 3vw;    
+    }
+    .content-experience h5{
+      font-size: 3vw;        
+    }  
+  }

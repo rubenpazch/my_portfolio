@@ -11,7 +11,7 @@ Additional description about the project and its features.
 - Major languages,
 - frameworks,
 - technologies used
-- my dev branch 2
+- my dev branch 2 on dev
 
 ## Live Demo
 

@@ -1,0 +1,249 @@
+@media (min-width: 1025px) and (max-width: 1280px) {  
+    body {  
+      background-repeat: no-repeat;  
+    }
+    nav {
+      width: none;
+      height: none;
+    }
+    .profile {    
+      width: 40vw;
+      height: 100%;  
+      margin: 0 0 0 0;    
+      position: relative;   
+    }
+    .wrapper-content {
+      height: 90vh;    
+      flex-flow: row;    
+    }
+    .parag-content{
+      flex-flow: column;
+    }
+    .parag-resumen{
+      width: 100%;
+    }
+    .parag-resumen p {
+      font-size: 1.1vw;
+      line-height: 1.9rem;
+    }
+    .info-highlight{
+      font-size: 1.1vw;
+      padding: 0.3vh 3vw 0.3vh 1vw;  
+    }  
+    .parag-info li{    
+      font-size: 1.1vw;   
+    }
+    #nav-bar-1 {
+      display: none;
+    } 
+    .download {
+      position: absolute;
+      bottom: 10px;
+      margin: 0;
+      padding: 0 0 20px 0 ;
+      justify-content: space-around;    
+    } 
+    .download li{
+      font-size: 1.1vw;      
+      min-width: 11vw;
+      padding: 15px 0 0 0;    
+      margin: 0;
+    }
+    .icons-profile a{
+      font-size: 1vw;
+    }
+    .menu-nav{
+      display: flex;
+      flex-flow: column;    
+    }
+    .menu-nav-2{
+      display: flex;
+      flex-flow: row;
+      width: none;
+    }
+    .content {    
+      width: 55vw;  
+      height: 100%;
+      overflow-y: scroll;   
+      margin: 0 0 0 10px; 
+    }
+    .content h1{
+      font-size: 2.5vw;
+      width: 55vw;
+    }  
+    .experience{
+      padding: 0 0 0 25px;
+    }
+    
+    .education{
+      padding: 0 0 0 0;
+    }
+    .education h2{
+      text-transform: uppercase;
+      color: #15b01f;
+      font-size: 2vw;
+    }
+    .experience h2{
+      text-transform: uppercase;
+      color: #15b01f;
+      font-size: 2vw;
+    }
+    .content-education{
+      padding: 0 30px 30px 0;
+    }
+    .content-experience{
+      padding: 30px 0 0 0;
+    }  
+    .content-education h5{
+      font-size: 1.2vw;         
+    }    
+    .content-experience h5{
+      font-size: 1.2vw;        
+    }  
+    .content-experience h4{
+      font-size: 1.2vw;  
+    }
+    .content-education h4{
+      font-size: 1.2vw;  
+    }
+    .content-experience h3{
+      font-size: 1.2vw;
+      text-align: right;
+      width: 13vw;
+    }
+    .content-education h3{
+      font-size: 1.2vw;
+      text-align: right;
+      width: 13vw;
+    }
+    .text-education{    
+      font-size: 1.1vw;    
+    }
+    .text-experience{    
+      font-size: 1.1vw;  
+    }
+    .project-content p{  
+      font-size: 1.1vw;    
+    }
+    .list-info li{
+      font-size: 1.1vw;    
+    }
+
+    .project-content {     
+      padding: 0 30px 0 0;
+    }
+    .tags{     
+      padding: 5px 30px 5px 30px;
+      font-size: 1.1vw;        
+    }
+    #project-01{   
+      background-size: 165%;
+    }
+    #project-02{    
+      background-size: 185%;
+    }
+    #project-03{    
+      background-size: 110%;
+    }
+    #article-01{    
+      background-size: 86%;
+    }
+    .project-image{         
+      background-position-y: 0;    
+      background-position-x: center;
+    }
+    .experience-wrapper{    
+      flex-flow: column;
+    }
+    .experience-side{
+      width: 95%;
+      padding: 0 0 0 0;
+    }
+    .education-side{
+        width: 95%;
+        padding: 60px 0 0 30px;
+    }
+  
+    .picture-content{
+      height: 45vh;
+      width: 100%;
+      left: 0;
+      top: 80px;
+      position: absolute;  
+    }
+    .info{
+      flex-flow: column;
+      top:55vh;
+      width: 100%;
+      height: 35vh;
+      position: absolute;    
+    }    
+    .info h1{
+      font-size: 2rem;
+      margin: -135px 0 0 0 ;
+    }
+    .info h2{
+      font-size: 1.5rem;  
+      padding: 20px 0 0 0;      
+    }
+
+    .picture-content:before{        
+      left: -25%;
+      bottom: -55%;
+      width: 100%;
+      height: 70%;
+    }
+    .picture-content:after{  
+        left: 25%;
+        bottom: -57%;
+        width: 100%;
+        height: 70%;      
+    }
+    .project-wrapper{  
+      max-width: 70vw;    
+    }
+    .contact-me h2{    
+      font-size: 1.7vw;
+      word-break: break-word;
+    }
+    #picture-1{
+      display: inherit;
+    }
+    #picture-2{
+      display: none;
+    }
+    .menu-nav-2 li{    
+      border-bottom: none;    
+    }
+
+    .head-content{    
+      flex-flow: row;
+      align-items: flex-end;
+      justify-content: space-between;
+    }
+    .project-wrapper{
+      flex-flow: row;
+      width: 100%;
+      justify-content: center;
+      align-content: center;
+      margin: 0;
+      padding: 0 0 100px 0;
+    }
+    .project-content{
+      width: 60%;    
+    }
+    .link-demo{          
+      top: 100%;   
+      padding-top: 30px;
+      left: 15px; 
+    }
+    .title-content i{
+      font-size: 2vw;
+    }
+    .demo-button{      
+      padding: 5px 30px 5px 10px;
+      font-size: 0.7vw;
+      width: 5.5vw;
+      margin: 0 0 0 5px;      
+    }
+  }

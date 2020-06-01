@@ -1,0 +1,70 @@
+
+.experience-wrapper{
+    display: flex;
+}
+.experience-side{
+    margin: 0;
+}
+.education-side{ 
+    margin: 0;
+}
+
+.content-education h4{ 
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-decoration-color: #15b01f;
+}
+
+.content-experience h4{
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-decoration-color: #15b01f;
+}
+
+.content-education h5{     
+    padding: 0 0 30px 0;
+    margin: 0;
+}
+
+.content-experience h5{        
+    padding: 0 0 30px 0;
+    margin: 0;
+}
+
+
+
+.content-experience h3{
+    text-transform: uppercase;
+    
+}
+.content-education h3{    
+    text-transform: uppercase;
+    
+}
+
+.text-education{
+    padding: 0;
+    margin: 0;
+    font-weight: lighter;    
+    line-height: 2.5vh;
+}
+
+.text-experience{
+    padding: 0;
+    margin: 0;
+    font-weight: lighter;
+    line-height: 2.5vh;
+}
+
+.list-info{
+    margin: 0;
+    padding: 0 0 0 15px;    
+}
+
+.list-info li{
+    list-style: square;
+    line-height: 1.9rem;
+}
+.head-content{
+    display: flex;    
+}
