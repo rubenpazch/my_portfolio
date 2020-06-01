@@ -353,7 +353,8 @@ nav {
   padding: 0 0 0 15px; }
 
 .list-info li {
-  list-style: square; }
+  list-style: square;
+  line-height: 1.9rem; }
 
 .head-content {
   display: flex; }
@@ -500,6 +501,9 @@ nav {
     text-align: center; }
 
   .project-content p {
+    font-size: 0.8vw; }
+
+  .list-info li {
     font-size: 0.8vw; }
 
   .project-content {
@@ -744,6 +748,9 @@ nav {
     font-size: 1.1vw; }
 
   .project-content p {
+    font-size: 1.1vw; }
+
+  .list-info li {
     font-size: 1.1vw; }
 
   .project-content {
@@ -999,10 +1006,10 @@ nav {
     padding: 30px 0 0 0; }
 
   .content-education h5 {
-    font-size: 1.2vw; }
+    font-size: 1.5vw; }
 
   .content-experience h5 {
-    font-size: 1.2vw; }
+    font-size: 1.5vw; }
 
   .content-experience h4 {
     font-size: 1.5vw; }
@@ -1081,6 +1088,9 @@ nav {
     margin: 0 0 0 5px; }
 
   .project-content p {
+    font-size: 1.5vw; }
+
+  .list-info li {
     font-size: 1.5vw; } }
 @media (min-width: 481px) and (max-width: 767px) {
   body {
@@ -1262,7 +1272,13 @@ nav {
     font-size: 1.9vw; }
 
   .project-content p {
-    font-size: 2vw; } }
+    font-size: 2vw; }
+
+  .list-info li {
+    font-size: 2vw; }
+
+  .content-experience h5 {
+    font-size: 2.5vw; } }
 @media (max-width: 480px) {
   body {
     background-repeat: repeat; }
@@ -1455,6 +1471,12 @@ nav {
     font-size: 4.5vw; }
 
   .project-content p {
+    font-size: 3vw; }
+
+  .list-info li {
+    font-size: 3vw; }
+
+  .content-experience h5 {
     font-size: 3vw; } }
 body {
   margin: 0;
