@@ -39,9 +39,11 @@
     }
     .parag-resumen p {
       font-size: 2vw;
+      line-height: 1.9rem;
     }
     .info-highlight{
       font-size: 2vw;
+      padding: 0.3vh 3vw 0.3vh 1vw;  
     }  
     .parag-info li{    
       font-size: 2vw;   
@@ -175,5 +177,8 @@
     .tags{     
       padding: 5px 30px 5px 30px;
       font-size: 1.9vw;        
+    }
+    .project-content p{  
+      font-size: 2vw;    
     }
   }

@@ -40,13 +40,15 @@
       width: 100%;
     }
     .parag-resumen p {
-      font-size: 1.1vw;
+      font-size: 3vw;
+      line-height: 2rem;
     }
     .info-highlight{
-      font-size: 1.1vw;
+      font-size: 3vw;
+      padding: 0.3vh 6vw 0.3vh 6vw;  
     }  
     .parag-info li{    
-      font-size: 1.1vw;   
+      font-size: 3vw;   
     }
     .menu-nav{
       display: flex;
@@ -69,7 +71,7 @@
       justify-content: center; 
     }
     .download li{
-      font-size: 1.1vw;
+      font-size: 3vw;
       min-width: 11vw;
       padding: 15px 15px 0 15px;    
       margin: 0 15px 0 15px;
@@ -88,10 +90,10 @@
       width: 96vw;  
       height: none;
       overflow-y: none;  
-      margin: 20px 0 0 0; 
+      margin: 95px 0 0 0; 
     }
     .content h1{
-      font-size: 2.5vw;
+      font-size: 7vw;
     }
     .left-bar{
       padding: 0 0 0 0;
@@ -101,7 +103,7 @@
       flex-flow: column;
       top:none;
       width: 97vw;
-      height: 50vh;
+      height: 60vh;
       position: initial;   
       border-top-right-radius: 10px;
       border-top-left-radius: 10px;
@@ -114,6 +116,23 @@
       width: 90%;
       padding: 0 0 0 30px;
     }
+
+    .experience{
+      padding: 0 0 60px 0;
+    }
+
+    .experience h2{
+      padding: 30px 0 30px 0;
+    }
+
+    .education{
+      padding: 0 0 60px 0;
+    }
+
+    .education h2{
+      padding: 30px 0 30px 0;
+    }
+
     .education-side{
         width: 90%;
         padding: 0 0 0 30px;
@@ -147,7 +166,7 @@
     .project-content{
       width: 90%;    
       padding-left: 30px;    
-      padding-top: 65px;
+      padding-top: 110px;
     }
     .project-image{         
       background-position-y: 0;    
@@ -159,17 +178,17 @@
       top: 230px;    
     }
     .title-content i{
-      font-size: 1.5vw;
+      font-size: 6.5vw;
     }
     .demo-button{      
-      padding: 5px 30px 5px 10px;
-      font-size: 0.7vw;
+      padding: 10px 50px 30px 25px;
+      font-size: 3vw;
       width: 5.5vw;
-      margin: 0 0 0 5px;      
+      margin: 50px 0 0 50px;      
     }
     .tags{     
       padding: 5px 30px 5px 30px;
-      font-size: 2.5vw;        
+      font-size: 3vw;        
     }
     .info h1{
       font-size: 5vw;
@@ -178,4 +197,7 @@
       padding: 0 0 0 0;     
       font-size: 4.5vw;      
     }    
+    .project-content p{  
+      font-size: 3vw;    
+    }
   }
