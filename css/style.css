@@ -25,14 +25,15 @@ nav {
 .menu-nav li {
   list-style: none;
   height: 8vh;
-  width: 100%; }
+  width: 100%;
+  font-size: 1rem; }
 
 .menu-nav-2 li {
   list-style: none;
   height: 5vh;
   width: 100%;
   border-bottom: 1px solid #e6e6e6;
-  font-size: 1.1vw; }
+  font-size: 0.7rem; }
 
 .menu-nav li:last-child {
   border-bottom: 0; }
@@ -61,20 +62,17 @@ nav {
   text-decoration: none;
   padding: 11px 0 0 0;
   color: #000;
-  font-size: 0.9vw;
   width: 7vw;
   text-align: center;
   margin-left: 0; }
 
 .icons-profile a:hover {
   font-weight: bolder;
-  font-size: 1vw;
   text-decoration: underline;
   color: #31840b; }
 
 .icons-profile-2 a:hover {
   font-weight: bolder;
-  font-size: 1vw;
   text-decoration: underline;
   color: #31840b; }
 
