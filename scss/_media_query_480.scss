@@ -67,8 +67,7 @@
       flex-flow: column;    
     }
     .download li{      
-      min-width: 11vw;
-      padding: 15px 15px 0 15px;    
+      min-width: 11vw;      
       margin: 15px 15px 0 15px;
     }
     .icons-profile a{
@@ -159,7 +158,7 @@
     .project-content{
       width: 90%;    
       padding-left: 30px;    
-      padding-top: 110px;
+      padding-top: 160px;
     }
     .project-image{         
       background-position-y: 0;    
@@ -168,14 +167,16 @@
       width: 100%;
     }
     .link-demo{    
-      top: 230px;    
+      top: 300px;    
+      flex-flow: column;
+      align-items: center;
+      width: 100%;
     }
     
     .demo-button{      
-      padding: 10px 50px 30px 25px;
-      font-size: 3vw;
+      padding: 10px 50px 10px 25px;      
       width: 5.5vw;
-      margin: 50px 0 0 50px;      
+      margin: 15px 0 0 0;      
     }
     .tags{     
       padding: 5px 30px 5px 30px;      

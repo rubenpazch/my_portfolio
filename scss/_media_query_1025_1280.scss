@@ -40,8 +40,7 @@
       flex-flow: row;    
     } 
     .download li{      
-      min-width: 11vw;
-      padding: 15px 0 0 0;    
+      min-width: 11vw;      
       margin: 0;
     }
     .icons-profile a{
@@ -224,11 +223,12 @@
       top: 100%;   
       padding-top: 30px;
       left: 15px; 
+      flex-flow: row;
+      width: 90%;
     }
     
     .demo-button{      
-      padding: 5px 30px 5px 10px;
-      font-size: 0.7vw;
+      padding: 15px 30px 30px 30px;      
       width: 5.5vw;
       margin: 0 0 0 5px;      
     }

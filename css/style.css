@@ -148,7 +148,8 @@ nav {
   border: 1px solid #ddd9d9;
   text-align: center;
   box-shadow: -3px 3px 3px #d2cfcf;
-  font-size: 1.1rem; }
+  font-size: 1.1rem;
+  padding: 15px 15px 15px 15px; }
 
 .link-cv {
   text-decoration: none;
@@ -298,10 +299,8 @@ nav {
   background-image: url(../img/article-01.png); }
 
 .link-demo {
-  width: 90%;
   height: 3vh;
   display: flex;
-  flex-flow: row;
   position: relative;
   justify-content: center; }
 
@@ -313,7 +312,8 @@ nav {
 
 .demo-button a {
   text-decoration: none;
-  color: #fff; }
+  color: #fff;
+  font-size: 1rem; }
 
 .experience-wrapper {
   display: flex; }
@@ -431,7 +431,6 @@ nav {
 
   .download li {
     min-width: 9vw;
-    padding: 15px 0 0 0;
     margin: 0; }
 
   .icons-profile a {
@@ -610,11 +609,12 @@ nav {
   .link-demo {
     top: 100%;
     padding-top: 30px;
-    left: 15px; }
+    left: 15px;
+    flex-flow: row;
+    width: 90%; }
 
   .demo-button {
     padding: 5px 25px 25px 25px;
-    font-size: 0.7vw;
     width: 5.5vw;
     margin: 0 0 0 5px; } }
 @media (min-width: 1025px) and (max-width: 1280px) {
@@ -660,7 +660,6 @@ nav {
 
   .download li {
     min-width: 11vw;
-    padding: 15px 0 0 0;
     margin: 0; }
 
   .icons-profile a {
@@ -837,11 +836,12 @@ nav {
   .link-demo {
     top: 100%;
     padding-top: 30px;
-    left: 15px; }
+    left: 15px;
+    flex-flow: row;
+    width: 90%; }
 
   .demo-button {
-    padding: 5px 30px 5px 10px;
-    font-size: 0.7vw;
+    padding: 15px 30px 30px 30px;
     width: 5.5vw;
     margin: 0 0 0 5px; } }
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -909,7 +909,6 @@ nav {
 
   .download li {
     min-width: 11vw;
-    padding: 15px 15px 0 15px;
     margin: 0 15px 0 15px; }
 
   .icons-profile a {
@@ -1041,11 +1040,12 @@ nav {
   .link-demo {
     top: 100%;
     padding-top: 30px;
-    left: 15px; }
+    left: 15px;
+    flex-flow: row;
+    width: 90%; }
 
   .demo-button {
     padding: 10px 30px 25px 30px;
-    font-size: 1.7vw;
     width: 5.5vw;
     margin: 0 0 0 5px; }
 
@@ -1117,7 +1117,6 @@ nav {
 
   .download li {
     min-width: 11vw;
-    padding: 15px 15px 0 15px;
     margin: 0 15px 0 15px; }
 
   .icons-profile a {
@@ -1203,11 +1202,12 @@ nav {
   .link-demo {
     top: 230px;
     padding-top: 50px;
-    left: 30px; }
+    left: 30px;
+    flex-flow: row;
+    width: 90%; }
 
   .demo-button {
     padding: 10px 30px 25px 30px;
-    font-size: 1.7vw;
     width: 5.5vw;
     margin: 0 0 0 5px; }
 
@@ -1287,7 +1287,6 @@ nav {
 
   .download li {
     min-width: 11vw;
-    padding: 15px 15px 0 15px;
     margin: 15px 15px 0 15px; }
 
   .icons-profile a {
@@ -1371,7 +1370,7 @@ nav {
   .project-content {
     width: 90%;
     padding-left: 30px;
-    padding-top: 110px; }
+    padding-top: 160px; }
 
   .project-image {
     background-position-y: 0;
@@ -1380,13 +1379,15 @@ nav {
     width: 100%; }
 
   .link-demo {
-    top: 230px; }
+    top: 300px;
+    flex-flow: column;
+    align-items: center;
+    width: 100%; }
 
   .demo-button {
-    padding: 10px 50px 30px 25px;
-    font-size: 3vw;
+    padding: 10px 50px 10px 25px;
     width: 5.5vw;
-    margin: 50px 0 0 50px; }
+    margin: 15px 0 0 0; }
 
   .tags {
     padding: 5px 30px 5px 30px; }

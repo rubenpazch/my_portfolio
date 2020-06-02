@@ -59,11 +59,9 @@
     
 }
 
-.link-demo{    
-    width: 90%;
+.link-demo{        
     height: 3vh;
-    display: flex;
-    flex-flow: row;
+    display: flex;    
     position: relative;        
     justify-content: center;
 }
@@ -78,4 +76,5 @@
 .demo-button a{
     text-decoration: none;
     color: #fff;
+    font-size: 1rem;
 }
