@@ -1238,6 +1238,7 @@ nav {
   .picture-content {
     width: 100%;
     min-height: 20vh;
+    height: 20vh;
     position: initial;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
