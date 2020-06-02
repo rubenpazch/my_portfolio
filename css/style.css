@@ -1280,7 +1280,7 @@ nav {
     position: initial;
     bottom: none;
     margin: 0;
-    padding: 59px 0 20px 0;
+    padding: 15px 0 20px 0;
     justify-content: center;
     flex-flow: column; }
 
@@ -1301,7 +1301,7 @@ nav {
     width: 96vw;
     height: none;
     overflow-y: none;
-    margin: 250px 0 0 0; }
+    margin: 305px 0 0 0; }
 
   .left-bar {
     padding: 0 0 0 0;
@@ -1311,7 +1311,7 @@ nav {
     flex-flow: column;
     top: none;
     width: 97vw;
-    height: 80vh;
+    height: 100vh;
     position: initial;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
