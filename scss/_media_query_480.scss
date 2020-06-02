@@ -5,8 +5,8 @@
       background-repeat: repeat;  
     }
     nav {
-      width: none;
-      height: none;
+      width: 100%;
+      min-height: 100px;
     }
     .profile {                
       width: 96vw;
@@ -42,13 +42,9 @@
     .parag-resumen p {      
       line-height: 2rem;
     }
-    .info-highlight{
-      font-size: 3vw;
+    .info-highlight{      
       padding: 0.3vh 6vw 0.3vh 6vw;  
-    }  
-    .parag-info li{    
-      font-size: 3vw;   
-    }
+    }      
     .menu-nav{
       display: flex;
       flex-flow: row;    
@@ -68,12 +64,12 @@
       margin: 0;
       padding: 59px 0 20px 0 ;
       justify-content: center; 
+      flex-flow: column;    
     }
-    .download li{
-      font-size: 3vw;
+    .download li{      
       min-width: 11vw;
       padding: 15px 15px 0 15px;    
-      margin: 0 15px 0 15px;
+      margin: 15px 15px 0 15px;
     }
     .icons-profile a{
       font-size: 2.5vw;
@@ -89,11 +85,9 @@
       width: 96vw;  
       height: none;
       overflow-y: none;  
-      margin: 95px 0 0 0; 
+      margin: 250px 0 0 0; 
     }
-    .content h1{
-      font-size: 7vw;
-    }
+    
     .left-bar{
       padding: 0 0 0 0;
       margin: 10px 0 0 0;
@@ -102,7 +96,7 @@
       flex-flow: column;
       top:none;
       width: 97vw;
-      height: 60vh;
+      height: 80vh;
       position: initial;   
       border-top-right-radius: 10px;
       border-top-left-radius: 10px;
@@ -176,9 +170,7 @@
     .link-demo{    
       top: 230px;    
     }
-    .title-content i{
-      font-size: 6.5vw;
-    }
+    
     .demo-button{      
       padding: 10px 50px 30px 25px;
       font-size: 3vw;
@@ -186,15 +178,11 @@
       margin: 50px 0 0 50px;      
     }
     .tags{     
-      padding: 5px 30px 5px 30px;
-      font-size: 3vw;        
+      padding: 5px 30px 5px 30px;      
     }
-    .info h1{
-      font-size: 5vw;
-    }
+    
     .info h2{    
-      padding: 0 0 0 0;     
-      font-size: 4.5vw;      
+      padding: 0 0 0 0;           
     }    
     .list-info li{  
       font-size: 1.1rem;    

@@ -6,6 +6,7 @@
 .content h1{    
     font-weight: 900;
     padding-left: 15px;
+    font-size: 2rem;
 }
 
 .title-content{
@@ -14,6 +15,10 @@
     align-items: center;
     padding: 15px 0 0 25px;
     flex-flow: row;
+}
+
+.title-content i{
+    font-size: 2rem;
 }
 
 .parag-content {    
@@ -46,11 +51,13 @@
     justify-content: space-between;
     line-height: 1.5rem; 
     padding: 8px 0; 
+    font-size: 1.1rem;   
 }
 
 .info-highlight{
     background-color: #15b01f;      
     color: #fff;    
     font-weight: 400;
+    font-size: 1.1rem;
 }
 

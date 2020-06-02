@@ -1,7 +1,6 @@
 .download {    
     width: 90%;
-    display: flex;
-    flex-flow: row;    
+    display: flex;    
 }
 
 .download li{
@@ -10,6 +9,7 @@
     border: 1px solid #ddd9d9;    
     text-align: center;
     box-shadow: -3px 3px 3px #d2cfcf;
+    font-size: 1.1rem;
 }
 
 .link-cv {

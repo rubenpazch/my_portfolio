@@ -28,10 +28,7 @@
       overflow-y: scroll; 
       margin: 0 0 0 10px;   
     }
-    .content h1{
-      font-size: 2vw;
-    }
-  
+      
     .parag-content{
       flex-flow: row;
     }
@@ -44,13 +41,9 @@
     .parag-info{
       width: 40%;
     }
-    .info-highlight{
-      font-size: 0.9vw;
+    .info-highlight{      
       padding: 0.3vh 3vw 0.3vh 1vw;  
-    }
-    .parag-info li{    
-      font-size: 0.9vw;   
-    }
+    }    
     #nav-bar-1 {
       display: inherit;
     }
@@ -63,9 +56,9 @@
       margin: 0;
       padding: 0 0 20px 0 ;
       justify-content: space-around;    
+      flex-flow: row;    
     }
-    .download li{
-      font-size: 0.9vw;
+    .download li{      
       min-width: 9vw;
       padding: 15px 0 0 0;    
       margin: 0;
@@ -133,8 +126,6 @@
       color: #15b01f;
       font-size: 1.4vw;
     }    
-     
-
     
     .period{
       border: 1px solid #8AB98A;
@@ -151,8 +142,7 @@
       padding: 0 30px 0 0;
     }
     .tags{     
-      padding: 5px 30px 5px 30px;
-      font-size: 0.8vw;        
+      padding: 5px 30px 5px 30px;      
     }
     .project-wrapper{  
       max-width: 70vw;    
@@ -201,14 +191,9 @@
     }
   
     .info h1{   
-      margin: -110px 0 0 0 ;
-      font-size: 2rem;
+      margin: -110px 0 0 0 ;      
     }
 
-    .info h2{
-      font-size: 1.5rem;      
-    }
-  
     .picture-content:before{        
       left: -25%;
       bottom: -55%;
@@ -266,9 +251,7 @@
       left: 15px;
     }
 
-    .title-content i{
-      font-size: 1.5vw;
-    }
+    
 
     .demo-button{      
       padding: 5px 25px 25px 25px;

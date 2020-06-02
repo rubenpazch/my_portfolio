@@ -116,12 +116,15 @@ nav {
   border-bottom-right-radius: 10px; }
 
 .info h1 {
-  padding: 0; }
+  padding: 0;
+  font-size: 2rem;
+  text-align: center; }
 
 .info h2 {
-  font-weight: lighter;
+  font-weight: 500;
   margin: 0;
-  color: #15b01f; }
+  color: #15b01f;
+  font-size: 1.5rem; }
 
 .social-media {
   display: flex;
@@ -137,15 +140,15 @@ nav {
 
 .download {
   width: 90%;
-  display: flex;
-  flex-flow: row; }
+  display: flex; }
 
 .download li {
   list-style: none;
   height: 5vh;
   border: 1px solid #ddd9d9;
   text-align: center;
-  box-shadow: -3px 3px 3px #d2cfcf; }
+  box-shadow: -3px 3px 3px #d2cfcf;
+  font-size: 1.1rem; }
 
 .link-cv {
   text-decoration: none;
@@ -179,7 +182,8 @@ nav {
 
 .content h1 {
   font-weight: 900;
-  padding-left: 15px; }
+  padding-left: 15px;
+  font-size: 2rem; }
 
 .title-content {
   display: flex;
@@ -187,6 +191,9 @@ nav {
   align-items: center;
   padding: 15px 0 0 25px;
   flex-flow: row; }
+
+.title-content i {
+  font-size: 2rem; }
 
 .parag-content {
   display: flex;
@@ -214,12 +221,14 @@ nav {
   align-items: center;
   justify-content: space-between;
   line-height: 1.5rem;
-  padding: 8px 0; }
+  padding: 8px 0;
+  font-size: 1.1rem; }
 
 .info-highlight {
   background-color: #15b01f;
   color: #fff;
-  font-weight: 400; }
+  font-weight: 400;
+  font-size: 1.1rem; }
 
 /*
  *  STYLE 15
@@ -264,7 +273,8 @@ nav {
   text-align: center;
   list-style: none;
   margin-right: 10px;
-  margin-top: 15px; }
+  margin-top: 15px;
+  font-size: 1.1rem; }
 
 .project-content p {
   font-weight: lighter;
@@ -390,9 +400,6 @@ nav {
     overflow-y: scroll;
     margin: 0 0 0 10px; }
 
-  .content h1 {
-    font-size: 2vw; }
-
   .parag-content {
     flex-flow: row; }
 
@@ -406,11 +413,7 @@ nav {
     width: 40%; }
 
   .info-highlight {
-    font-size: 0.9vw;
     padding: 0.3vh 3vw 0.3vh 1vw; }
-
-  .parag-info li {
-    font-size: 0.9vw; }
 
   #nav-bar-1 {
     display: inherit; }
@@ -423,10 +426,10 @@ nav {
     bottom: 10px;
     margin: 0;
     padding: 0 0 20px 0;
-    justify-content: space-around; }
+    justify-content: space-around;
+    flex-flow: row; }
 
   .download li {
-    font-size: 0.9vw;
     min-width: 9vw;
     padding: 15px 0 0 0;
     margin: 0; }
@@ -508,8 +511,7 @@ nav {
     padding: 0 30px 0 0; }
 
   .tags {
-    padding: 5px 30px 5px 30px;
-    font-size: 0.8vw; }
+    padding: 5px 30px 5px 30px; }
 
   .project-wrapper {
     max-width: 70vw; }
@@ -555,11 +557,7 @@ nav {
     position: absolute; }
 
   .info h1 {
-    margin: -110px 0 0 0;
-    font-size: 2rem; }
-
-  .info h2 {
-    font-size: 1.5rem; }
+    margin: -110px 0 0 0; }
 
   .picture-content:before {
     left: -25%;
@@ -614,9 +612,6 @@ nav {
     padding-top: 30px;
     left: 15px; }
 
-  .title-content i {
-    font-size: 1.5vw; }
-
   .demo-button {
     padding: 5px 25px 25px 25px;
     font-size: 0.7vw;
@@ -650,11 +645,7 @@ nav {
     line-height: 1.9rem; }
 
   .info-highlight {
-    font-size: 1.1vw;
     padding: 0.3vh 3vw 0.3vh 1vw; }
-
-  .parag-info li {
-    font-size: 1.1vw; }
 
   #nav-bar-1 {
     display: none; }
@@ -664,10 +655,10 @@ nav {
     bottom: 10px;
     margin: 0;
     padding: 0 0 20px 0;
-    justify-content: space-around; }
+    justify-content: space-around;
+    flex-flow: row; }
 
   .download li {
-    font-size: 1.1vw;
     min-width: 11vw;
     padding: 15px 0 0 0;
     margin: 0; }
@@ -691,7 +682,6 @@ nav {
     margin: 0 0 0 10px; }
 
   .content h1 {
-    font-size: 2.5vw;
     width: 55vw; }
 
   .experience {
@@ -751,8 +741,7 @@ nav {
     padding: 0 30px 0 0; }
 
   .tags {
-    padding: 5px 30px 5px 30px;
-    font-size: 1.1vw; }
+    padding: 5px 30px 5px 30px; }
 
   #project-01 {
     background-size: 165%; }
@@ -796,11 +785,9 @@ nav {
     position: absolute; }
 
   .info h1 {
-    font-size: 2rem;
     margin: -135px 0 0 0; }
 
   .info h2 {
-    font-size: 1.5rem;
     padding: 20px 0 0 0; }
 
   .picture-content:before {
@@ -852,9 +839,6 @@ nav {
     padding-top: 30px;
     left: 15px; }
 
-  .title-content i {
-    font-size: 2vw; }
-
   .demo-button {
     padding: 5px 30px 5px 10px;
     font-size: 0.7vw;
@@ -902,11 +886,7 @@ nav {
     line-height: 1.9rem; }
 
   .info-highlight {
-    font-size: 1.5vw;
     padding: 0.3vh 3vw 0.3vh 1vw; }
-
-  .parag-info li {
-    font-size: 1.5vw; }
 
   .menu-nav {
     display: flex;
@@ -924,10 +904,10 @@ nav {
     bottom: none;
     margin: 0;
     padding: 25px 0 25px 0;
-    justify-content: center; }
+    justify-content: center;
+    flex-flow: row; }
 
   .download li {
-    font-size: 1.5vw;
     min-width: 11vw;
     padding: 15px 15px 0 15px;
     margin: 0 15px 0 15px; }
@@ -947,9 +927,6 @@ nav {
     overflow-y: none;
     margin: 220px 0 0 0; }
 
-  .content h1 {
-    font-size: 3.5vw; }
-
   .left-bar {
     padding: 0 0 0 0;
     margin: 10px 0 0 0; }
@@ -968,8 +945,7 @@ nav {
     max-width: 85vw; }
 
   .tags {
-    padding: 5px 30px 5px 30px;
-    font-size: 1.5vw; }
+    padding: 5px 30px 5px 30px; }
 
   .experience-wrapper {
     flex-flow: column; }
@@ -1039,12 +1015,8 @@ nav {
   .menu-nav-2 li {
     border-bottom: none; }
 
-  .info h1 {
-    font-size: 2rem; }
-
   .info h2 {
-    padding: 0 0 0 0;
-    font-size: 1.5rem; }
+    padding: 0 0 0 0; }
 
   .head-content {
     flex-flow: row;
@@ -1070,9 +1042,6 @@ nav {
     top: 100%;
     padding-top: 30px;
     left: 15px; }
-
-  .title-content i {
-    font-size: 2.5vw; }
 
   .demo-button {
     padding: 10px 30px 25px 30px;
@@ -1125,11 +1094,7 @@ nav {
     line-height: 1.9rem; }
 
   .info-highlight {
-    font-size: 2vw;
     padding: 0.3vh 3vw 0.3vh 1vw; }
-
-  .parag-info li {
-    font-size: 2vw; }
 
   .menu-nav {
     display: flex;
@@ -1147,10 +1112,10 @@ nav {
     bottom: none;
     margin: 0;
     padding: 25px 0 25px 0;
-    justify-content: center; }
+    justify-content: center;
+    flex-flow: row; }
 
   .download li {
-    font-size: 1.7vw;
     min-width: 11vw;
     padding: 15px 15px 0 15px;
     margin: 0 15px 0 15px; }
@@ -1169,9 +1134,6 @@ nav {
     height: none;
     overflow-y: none;
     margin: 135px 0 0 0; }
-
-  .content h1 {
-    font-size: 4vw; }
 
   .left-bar {
     padding: 0 0 0 0;
@@ -1211,12 +1173,8 @@ nav {
   .menu-nav-2 li {
     border-bottom: none; }
 
-  .info h1 {
-    font-size: 2rem; }
-
   .info h2 {
-    padding: 0 0 0 0;
-    font-size: 1.5rem; }
+    padding: 0 0 0 0; }
 
   .head-content {
     flex-flow: column;
@@ -1247,9 +1205,6 @@ nav {
     padding-top: 50px;
     left: 30px; }
 
-  .title-content i {
-    font-size: 3.5vw; }
-
   .demo-button {
     padding: 10px 30px 25px 30px;
     font-size: 1.7vw;
@@ -1257,8 +1212,7 @@ nav {
     margin: 0 0 0 5px; }
 
   .tags {
-    padding: 5px 30px 5px 30px;
-    font-size: 1.9vw; }
+    padding: 5px 30px 5px 30px; }
 
   .list-info li {
     font-size: 1.1rem; }
@@ -1270,8 +1224,8 @@ nav {
     background-repeat: repeat; }
 
   nav {
-    width: none;
-    height: none; }
+    width: 100%;
+    min-height: 100px; }
 
   .profile {
     width: 96vw;
@@ -1308,11 +1262,7 @@ nav {
     line-height: 2rem; }
 
   .info-highlight {
-    font-size: 3vw;
     padding: 0.3vh 6vw 0.3vh 6vw; }
-
-  .parag-info li {
-    font-size: 3vw; }
 
   .menu-nav {
     display: flex;
@@ -1332,13 +1282,13 @@ nav {
     bottom: none;
     margin: 0;
     padding: 59px 0 20px 0;
-    justify-content: center; }
+    justify-content: center;
+    flex-flow: column; }
 
   .download li {
-    font-size: 3vw;
     min-width: 11vw;
     padding: 15px 15px 0 15px;
-    margin: 0 15px 0 15px; }
+    margin: 15px 15px 0 15px; }
 
   .icons-profile a {
     font-size: 2.5vw; }
@@ -1353,10 +1303,7 @@ nav {
     width: 96vw;
     height: none;
     overflow-y: none;
-    margin: 95px 0 0 0; }
-
-  .content h1 {
-    font-size: 7vw; }
+    margin: 250px 0 0 0; }
 
   .left-bar {
     padding: 0 0 0 0;
@@ -1366,7 +1313,7 @@ nav {
     flex-flow: column;
     top: none;
     width: 97vw;
-    height: 60vh;
+    height: 80vh;
     position: initial;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
@@ -1435,9 +1382,6 @@ nav {
   .link-demo {
     top: 230px; }
 
-  .title-content i {
-    font-size: 6.5vw; }
-
   .demo-button {
     padding: 10px 50px 30px 25px;
     font-size: 3vw;
@@ -1445,15 +1389,10 @@ nav {
     margin: 50px 0 0 50px; }
 
   .tags {
-    padding: 5px 30px 5px 30px;
-    font-size: 3vw; }
-
-  .info h1 {
-    font-size: 5vw; }
+    padding: 5px 30px 5px 30px; }
 
   .info h2 {
-    padding: 0 0 0 0;
-    font-size: 4.5vw; }
+    padding: 0 0 0 0; }
 
   .list-info li {
     font-size: 1.1rem; }
