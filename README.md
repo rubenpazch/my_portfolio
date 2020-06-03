@@ -2,11 +2,7 @@
 
 ## Project specifications
 
-Capstone projects are solo projects at the end of the each of the Microverse Main Technical Curriculum sections.
-
-The project HTML & CSS Capstone Project is based on an online website for a conference. You should follow the given design of the website, but you must personalize the content.
-
-For this project I personalize the content for a Workshop E-commerce, it is about building your own site eCommerce and is oriented to entrepreneurs or people with business, this conference will be located on the city of Cusco in Peru and will be organized by Cusco Solutions that is a Peruvian company.    
+This project was built to show my personal information about my path like a software developer using different modern tech, on this project I will like to show some of my fancy projets, I used HTML, CSS, and SASS, stickler, flexbox.    
 
 
 
@@ -14,7 +10,6 @@ For this project I personalize the content for a Workshop E-commerce, it is abou
 ## Table of Contents
 
 * [Whats is included on this project](#whats-is-included-on-this-project)
-* [Link to assignment](#link-to-assignment)
 * [Built With](#built-with)
 * [Screenshot](#screenshot)
 * [Live Demo](#live-demo)
@@ -33,25 +28,15 @@ For this project I personalize the content for a Workshop E-commerce, it is abou
 This project includes the next parts:
 
 + The home page 
-  + Cover section
-  + Main program section
-  + Featured speakers
-  + Partner section
-  + Footer
-+ About page
-  + Cover section
-  + Workshop Ecommerce and logo section 
-  + Previous events
-  + Partner section 
-  + Footer
-+ Tickets page
-  + Select tickets
-  + Select your lunch
-  + Footer
+  + Navigation bar
+  + Profile info
+  + About me
+  + Exprience and Education
+  + Project
+  + Articles
+  + Contact
 
-## Link to assignment
 
-the assignment can be found  [here](https://www.notion.so/HTML-CSS-capstone-project-Conference-page-ed3efca4b9824484a9df7f9f24067ff7).
 
 ## Built With
 
@@ -73,11 +58,11 @@ Tools used on this project
 
 ## Screenshot
 
-![screenshot](./img/screnshot-site.gif)
+![screenshot](./img/screem_shot.png)
 
 ## Live Demo
 
-You can see the [live preview](https://compassionate-nightingale-93193a.netlify.com/)
+You can see the [live preview](http://rpazchuspe.haylli.net/)
 
 ## SASS structure 
 
@@ -97,9 +82,8 @@ For making changes to this project you should run SASS with this command
 
 ## Video Presentation of the project
 
-You can see the video presentation on the next link [here](https://www.youtube.com/watch?v=4a5Yf33ODfQ).
+You can see the video presentation on the next link [here](https://www.youtube.com/watch?v=SWB-fzTpx5g&t=49s).
 
-![video](./img/video-presentation.png)
 
 ## Authors
 
@@ -107,6 +91,7 @@ You can see the video presentation on the next link [here](https://www.youtube.c
 
 - Github: [@rubenpazch](https://github.com/rubenpazch)
 - Linkedin: [rubenpch](https://www.linkedin.com/in/rubenpch/)
+- Twitter: [chuspepaz](https://twitter.com/ChuspePaz)
 
 ## Contributing
 
@@ -114,7 +99,7 @@ This is an education project as a part of the Microverse so contributing is not 
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues](https://github.com/rubenpazch/capstone-conference-page/issues).
+Feel free to check the [issues](https://github.com/rubenpazch/my_portfolio/issues).
 
 ## Show your support
 
@@ -126,11 +111,9 @@ Give a ⭐️ if you like this project!
 + [Github](http://github.com/).
 + [Fontawesome](http://fontawesome.com/).
 + [The Odin Project](theodinproject.com/).
-+ [Creative Commons](https://creativecommons.org/licenses/by-nc/4.0/).
+
 
 ## License
-
-For this project we use a template from [Creative Commons](https://creativecommons.org/licenses/by-nc/4.0/). 
 
 This project is [MIT](lic.url) licensed.
 
