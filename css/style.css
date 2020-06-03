@@ -121,7 +121,7 @@ nav {
 .info h2 {
   font-weight: 500;
   margin: 0;
-  color: #15b01f;
+  color: #014B05;
   font-size: 1.5rem; }
 
 .social-media {
@@ -224,7 +224,7 @@ nav {
   font-size: 1.1rem; }
 
 .info-highlight {
-  background-color: #15b01f;
+  background-color: #014B05;
   color: #fff;
   font-weight: 400;
   font-size: 1.1rem; }
@@ -306,7 +306,7 @@ nav {
   border: 1px solid #8AB98A;
   border-radius: 6px;
   text-align: center;
-  background-color: #15b01f; }
+  background-color: #014B05; }
 
 .demo-button a {
   text-decoration: none;
@@ -325,12 +325,12 @@ nav {
 .content-education h4 {
   text-transform: uppercase;
   text-decoration: underline;
-  text-decoration-color: #15b01f; }
+  text-decoration-color: #014B05; }
 
 .content-experience h4 {
   text-transform: uppercase;
   text-decoration: underline;
-  text-decoration-color: #15b01f; }
+  text-decoration-color: #014B05; }
 
 .content-education h5 {
   padding: 0 0 30px 0;
@@ -485,12 +485,12 @@ nav {
 
   .experience h2 {
     text-transform: uppercase;
-    color: #15b01f;
+    color: #014B05;
     font-size: 1.4vw; }
 
   .education h2 {
     text-transform: uppercase;
-    color: #15b01f;
+    color: #014B05;
     font-size: 1.4vw; }
 
   .period {
@@ -689,12 +689,12 @@ nav {
 
   .education h2 {
     text-transform: uppercase;
-    color: #15b01f;
+    color: #014B05;
     font-size: 2vw; }
 
   .experience h2 {
     text-transform: uppercase;
-    color: #15b01f;
+    color: #014B05;
     font-size: 2vw; }
 
   .content-education {
@@ -957,12 +957,12 @@ nav {
 
   .education h2 {
     text-transform: uppercase;
-    color: #15b01f;
+    color: #014B05;
     font-size: 2vw; }
 
   .experience h2 {
     text-transform: uppercase;
-    color: #15b01f;
+    color: #014B05;
     font-size: 2vw; }
 
   .content-education {
